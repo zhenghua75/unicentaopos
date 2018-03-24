@@ -821,16 +821,16 @@ ALTER TABLE `tickets` ADD CONSTRAINT `tickets_fk_id`
 -- *****************************************************************************
 
  -- ADD roles
-INSERT INTO roles(id, name, permissions) VALUES('0', 'Administrator role', $FILE{/com/openbravo/pos/templates/Role.Administrator.xml} );
-INSERT INTO roles(id, name, permissions) VALUES('1', 'Manager role', $FILE{/com/openbravo/pos/templates/Role.Manager.xml} );
-INSERT INTO roles(id, name, permissions) VALUES('2', 'Employee role', $FILE{/com/openbravo/pos/templates/Role.Employee.xml} );
-INSERT INTO roles(id, name, permissions) VALUES('3', 'Guest role', $FILE{/com/openbravo/pos/templates/Role.Guest.xml} );
+INSERT INTO roles(id, name, permissions) VALUES('0', '系统管理员 角色', $FILE{/com/openbravo/pos/templates/Role.Administrator.xml} );
+INSERT INTO roles(id, name, permissions) VALUES('1', '经理 角色', $FILE{/com/openbravo/pos/templates/Role.Manager.xml} );
+INSERT INTO roles(id, name, permissions) VALUES('2', '职员 角色', $FILE{/com/openbravo/pos/templates/Role.Employee.xml} );
+INSERT INTO roles(id, name, permissions) VALUES('3', '顾客 角色', $FILE{/com/openbravo/pos/templates/Role.Guest.xml} );
 
 -- ADD people
-INSERT INTO people(id, name, apppassword, role, visible, image) VALUES ('0', 'Administrator', NULL, '0', TRUE, NULL);
-INSERT INTO people(id, name, apppassword, role, visible, image) VALUES ('1', 'Manager', NULL, '1', TRUE, NULL);
-INSERT INTO people(id, name, apppassword, role, visible, image) VALUES ('2', 'Employee', NULL, '2', TRUE, NULL);
-INSERT INTO people(id, name, apppassword, role, visible, image) VALUES ('3', 'Guest', NULL, '3', TRUE, NULL);
+INSERT INTO people(id, name, apppassword, role, visible, image) VALUES ('0', '系统管理员', NULL, '0', TRUE, NULL);
+INSERT INTO people(id, name, apppassword, role, visible, image) VALUES ('1', '经理', NULL, '1', TRUE, NULL);
+INSERT INTO people(id, name, apppassword, role, visible, image) VALUES ('2', '职员', NULL, '2', TRUE, NULL);
+INSERT INTO people(id, name, apppassword, role, visible, image) VALUES ('3', '顾客', NULL, '3', TRUE, NULL);
 
 -- ADD resources --
 -- MENU

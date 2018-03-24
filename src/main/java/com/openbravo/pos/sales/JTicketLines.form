@@ -18,11 +18,15 @@
     <Container class="javax.swing.JScrollPane" name="m_jScrollTableTicket">
       <Properties>
         <Property name="horizontalScrollBarPolicy" type="int" value="31"/>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
         <Property name="verticalScrollBarPolicy" type="int" value="22"/>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Arial" size="12" style="0"/>
+        <Property name="viewportView" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="default"/>
         </Property>
       </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_SerializeTo" type="java.lang.String" value="JTicketLines_m_jScrollTableTicket"/>
+      </AuxValues>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
           <BorderConstraints direction="Center"/>
@@ -33,9 +37,6 @@
       <SubComponents>
         <Component class="javax.swing.JTable" name="m_jTicketTable">
           <Properties>
-            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Arial" size="14" style="0"/>
-            </Property>
             <Property name="focusable" type="boolean" value="false"/>
             <Property name="intercellSpacing" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
               <Dimension value="[0, 1]"/>

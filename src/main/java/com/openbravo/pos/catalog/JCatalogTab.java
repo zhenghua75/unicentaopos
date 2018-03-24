@@ -22,6 +22,7 @@ package com.openbravo.pos.catalog;
 import com.openbravo.beans.JFlowPanel;
 import java.awt.BorderLayout;
 import java.awt.Dimension;
+import java.awt.Font;
 import java.awt.Insets;
 import java.awt.event.ActionListener;
 import javax.swing.*;
@@ -65,7 +66,6 @@ public class JCatalogTab extends javax.swing.JPanel {
             btn.setIcon(ico);
             btn.setFocusPainted(false);
             btn.setFocusable(false);
-
             if (textTip != null){
                 btn.setToolTipText(textTip);
             }
@@ -75,7 +75,7 @@ public class JCatalogTab extends javax.swing.JPanel {
             btn.setVerticalTextPosition(SwingConstants.BOTTOM);
             btn.setMargin(new Insets(2, 2, 2, 2));
             btn.addActionListener(al);
-
+            
             flowpanel.add(btn);        
     }
     
@@ -87,7 +87,7 @@ public class JCatalogTab extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        setFont(new java.awt.Font("Songti SC", 0, 12)); // NOI18N
         setLayout(new java.awt.BorderLayout());
     }// </editor-fold>//GEN-END:initComponents
     

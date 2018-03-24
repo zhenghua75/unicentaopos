@@ -443,10 +443,9 @@ public class JTicketLines extends javax.swing.JPanel {
         setLayout(new java.awt.BorderLayout());
 
         m_jScrollTableTicket.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
+        m_jScrollTableTicket.setToolTipText("");
         m_jScrollTableTicket.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
-        m_jScrollTableTicket.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
 
-        m_jTicketTable.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jTicketTable.setFocusable(false);
         m_jTicketTable.setIntercellSpacing(new java.awt.Dimension(0, 1));
         m_jTicketTable.setRequestFocusEnabled(false);

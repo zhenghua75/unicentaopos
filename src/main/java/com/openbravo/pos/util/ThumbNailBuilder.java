@@ -112,7 +112,7 @@ public class ThumbNailBuilder {
         label.setText(text);
         label.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         label.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);            
-
+        
         Dimension d = label.getPreferredSize();
         label.setBounds(0, 0, imgtext.getWidth(), d.height);  
         
