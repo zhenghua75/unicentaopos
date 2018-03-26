@@ -1026,47 +1026,36 @@ public class JPanelConfigPeripheral extends javax.swing.JPanel implements PanelC
         jPanel13.setBackground(new java.awt.Color(255, 255, 255));
         jPanel13.setPreferredSize(new java.awt.Dimension(800, 520));
 
-        jLabel5.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel5.setText(AppLocal.getIntString("label.MachineDisplay")); // NOI18N
         jLabel5.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jLabel6.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel6.setText(AppLocal.getIntString("label.MachinePrinter")); // NOI18N
         jLabel6.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jLabel7.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel7.setText(AppLocal.getIntString("label.MachinePrinter2")); // NOI18N
         jLabel7.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jLabel8.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel8.setText(AppLocal.getIntString("label.MachinePrinter3")); // NOI18N
         jLabel8.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jLabel9.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel9.setText(AppLocal.getIntString("label.MachinePrinter4")); // NOI18N
         jLabel9.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jLabel10.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel10.setText(AppLocal.getIntString("label.MachinePrinter5")); // NOI18N
         jLabel10.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jLabel11.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel11.setText(AppLocal.getIntString("label.MachinePrinter6")); // NOI18N
         jLabel11.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jLabel12.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel12.setText(AppLocal.getIntString("label.scale")); // NOI18N
         jLabel12.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jLabel13.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel13.setText(AppLocal.getIntString("label.scanner")); // NOI18N
         jLabel13.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jLabel14.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel14.setText(AppLocal.getIntString("label.reportsprinter")); // NOI18N
         jLabel14.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jcboMachineDisplay.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jcboMachineDisplay.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jcboMachineDisplay.setPreferredSize(new java.awt.Dimension(200, 30));
         jcboMachineDisplay.addActionListener(new java.awt.event.ActionListener() {
@@ -1075,7 +1064,6 @@ public class JPanelConfigPeripheral extends javax.swing.JPanel implements PanelC
             }
         });
 
-        jcboMachinePrinter.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jcboMachinePrinter.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jcboMachinePrinter.setPreferredSize(new java.awt.Dimension(200, 30));
         jcboMachinePrinter.addActionListener(new java.awt.event.ActionListener() {
@@ -1084,7 +1072,6 @@ public class JPanelConfigPeripheral extends javax.swing.JPanel implements PanelC
             }
         });
 
-        jcboMachinePrinter2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jcboMachinePrinter2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jcboMachinePrinter2.setPreferredSize(new java.awt.Dimension(200, 30));
         jcboMachinePrinter2.addActionListener(new java.awt.event.ActionListener() {
@@ -1093,7 +1080,6 @@ public class JPanelConfigPeripheral extends javax.swing.JPanel implements PanelC
             }
         });
 
-        jcboMachinePrinter3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jcboMachinePrinter3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jcboMachinePrinter3.setPreferredSize(new java.awt.Dimension(200, 30));
         jcboMachinePrinter3.addActionListener(new java.awt.event.ActionListener() {
@@ -1102,7 +1088,6 @@ public class JPanelConfigPeripheral extends javax.swing.JPanel implements PanelC
             }
         });
 
-        jcboMachinePrinter4.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jcboMachinePrinter4.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jcboMachinePrinter4.setPreferredSize(new java.awt.Dimension(200, 30));
         jcboMachinePrinter4.addActionListener(new java.awt.event.ActionListener() {
@@ -1111,7 +1096,6 @@ public class JPanelConfigPeripheral extends javax.swing.JPanel implements PanelC
             }
         });
 
-        jcboMachinePrinter5.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jcboMachinePrinter5.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jcboMachinePrinter5.setPreferredSize(new java.awt.Dimension(200, 30));
         jcboMachinePrinter5.addActionListener(new java.awt.event.ActionListener() {
@@ -1120,7 +1104,6 @@ public class JPanelConfigPeripheral extends javax.swing.JPanel implements PanelC
             }
         });
 
-        jcboMachinePrinter6.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jcboMachinePrinter6.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jcboMachinePrinter6.setPreferredSize(new java.awt.Dimension(200, 30));
         jcboMachinePrinter6.addActionListener(new java.awt.event.ActionListener() {
@@ -1129,7 +1112,6 @@ public class JPanelConfigPeripheral extends javax.swing.JPanel implements PanelC
             }
         });
 
-        jcboMachineScale.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jcboMachineScale.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jcboMachineScale.setPreferredSize(new java.awt.Dimension(200, 30));
         jcboMachineScale.addActionListener(new java.awt.event.ActionListener() {
@@ -1138,7 +1120,6 @@ public class JPanelConfigPeripheral extends javax.swing.JPanel implements PanelC
             }
         });
 
-        jcboMachineScanner.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jcboMachineScanner.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jcboMachineScanner.setPreferredSize(new java.awt.Dimension(200, 30));
         jcboMachineScanner.addActionListener(new java.awt.event.ActionListener() {
@@ -1147,7 +1128,6 @@ public class JPanelConfigPeripheral extends javax.swing.JPanel implements PanelC
             }
         });
 
-        cboPrinters.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         cboPrinters.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         cboPrinters.setPreferredSize(new java.awt.Dimension(200, 30));
 
@@ -1938,7 +1918,6 @@ public class JPanelConfigPeripheral extends javax.swing.JPanel implements PanelC
 
         jPanel27.setBackground(new java.awt.Color(255, 255, 255));
 
-        webSwtch_iButton.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         webSwtch_iButton.setPreferredSize(new java.awt.Dimension(80, 30));
         webSwtch_iButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1947,7 +1926,6 @@ public class JPanelConfigPeripheral extends javax.swing.JPanel implements PanelC
         });
 
         webLbliButton.setText(AppLocal.getIntString("label.ibutton")); // NOI18N
-        webLbliButton.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         webLbliButton.setPreferredSize(new java.awt.Dimension(150, 30));
 
         webSlider.setMajorTickSpacing(10);
@@ -1958,7 +1936,6 @@ public class JPanelConfigPeripheral extends javax.swing.JPanel implements PanelC
         webSlider.setToolTipText("");
         webSlider.setValue(5);
         webSlider.setAnimated(false);
-        webSlider.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         webSlider.setPreferredSize(new java.awt.Dimension(270, 47));
         webSlider.addChangeListener(new javax.swing.event.ChangeListener() {
             public void stateChanged(javax.swing.event.ChangeEvent evt) {
@@ -1969,14 +1946,11 @@ public class JPanelConfigPeripheral extends javax.swing.JPanel implements PanelC
         webLabel1.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         java.util.ResourceBundle bundle = java.util.ResourceBundle.getBundle("pos_messages"); // NOI18N
         webLabel1.setText(bundle.getString("label.ibuttonresponsespeed")); // NOI18N
-        webLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         webLabel1.setPreferredSize(new java.awt.Dimension(150, 30));
 
         webLabel2.setText(bundle.getString("label.fast")); // NOI18N
-        webLabel2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
 
         webLabel3.setText(bundle.getString("label.slow")); // NOI18N
-        webLabel3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
 
         javax.swing.GroupLayout jPanel27Layout = new javax.swing.GroupLayout(jPanel27);
         jPanel27.setLayout(jPanel27Layout);
@@ -2006,7 +1980,7 @@ public class JPanelConfigPeripheral extends javax.swing.JPanel implements PanelC
                     .addComponent(webSwtch_iButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(webLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(webSlider, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 13, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 28, Short.MAX_VALUE)
                 .addGroup(jPanel27Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(webLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(webLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -2038,18 +2012,6 @@ public class JPanelConfigPeripheral extends javax.swing.JPanel implements PanelC
                         .addComponent(jcboMachineScale, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(m_jScaleParams, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addGroup(jPanel13Layout.createSequentialGroup()
-                        .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel13Layout.createSequentialGroup()
-                                .addComponent(jLabel13, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jcboMachineScanner, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(jPanel13Layout.createSequentialGroup()
-                                .addComponent(jLabel14, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(cboPrinters, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(m_jScannerParams, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel13Layout.createSequentialGroup()
                         .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -2083,7 +2045,20 @@ public class JPanelConfigPeripheral extends javax.swing.JPanel implements PanelC
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(m_jPrinterParams1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
                     .addGroup(jPanel13Layout.createSequentialGroup()
-                        .addComponent(jPanel27, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel13Layout.createSequentialGroup()
+                                .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(jPanel13Layout.createSequentialGroup()
+                                        .addComponent(jLabel13, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(jcboMachineScanner, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addGroup(jPanel13Layout.createSequentialGroup()
+                                        .addComponent(jLabel14, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(cboPrinters, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(m_jScannerParams, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(jPanel27, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(0, 0, Short.MAX_VALUE)))
                 .addGap(16, 16, 16))
         );

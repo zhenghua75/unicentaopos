@@ -160,135 +160,111 @@ public class JPanelConfigCompany extends javax.swing.JPanel implements PanelConf
         setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         setPreferredSize(new java.awt.Dimension(700, 500));
 
-        lblTktHeader1.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         lblTktHeader1.setText(AppLocal.getIntString("label.tktheader1")); // NOI18N
         lblTktHeader1.setMaximumSize(new java.awt.Dimension(0, 25));
         lblTktHeader1.setMinimumSize(new java.awt.Dimension(0, 0));
         lblTktHeader1.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jtxtTktHeader1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jtxtTktHeader1.setMaximumSize(new java.awt.Dimension(0, 25));
         jtxtTktHeader1.setMinimumSize(new java.awt.Dimension(0, 0));
         jtxtTktHeader1.setPreferredSize(new java.awt.Dimension(300, 30));
 
-        lblTktHeader2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         lblTktHeader2.setText(AppLocal.getIntString("label.tktheader2")); // NOI18N
         lblTktHeader2.setMaximumSize(new java.awt.Dimension(0, 25));
         lblTktHeader2.setMinimumSize(new java.awt.Dimension(0, 0));
         lblTktHeader2.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jtxtTktHeader2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jtxtTktHeader2.setMaximumSize(new java.awt.Dimension(0, 25));
         jtxtTktHeader2.setMinimumSize(new java.awt.Dimension(0, 0));
         jtxtTktHeader2.setPreferredSize(new java.awt.Dimension(300, 30));
 
-        lblTktHeader3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         lblTktHeader3.setText(AppLocal.getIntString("label.tktheader3")); // NOI18N
         lblTktHeader3.setMaximumSize(new java.awt.Dimension(0, 25));
         lblTktHeader3.setMinimumSize(new java.awt.Dimension(0, 0));
         lblTktHeader3.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jtxtTktHeader3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jtxtTktHeader3.setMaximumSize(new java.awt.Dimension(0, 25));
         jtxtTktHeader3.setMinimumSize(new java.awt.Dimension(0, 0));
         jtxtTktHeader3.setPreferredSize(new java.awt.Dimension(300, 30));
 
-        lblTktHeader4.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         lblTktHeader4.setText(AppLocal.getIntString("label.tktheader4")); // NOI18N
         lblTktHeader4.setMaximumSize(new java.awt.Dimension(0, 25));
         lblTktHeader4.setMinimumSize(new java.awt.Dimension(0, 0));
         lblTktHeader4.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jtxtTktHeader4.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jtxtTktHeader4.setMaximumSize(new java.awt.Dimension(0, 25));
         jtxtTktHeader4.setMinimumSize(new java.awt.Dimension(0, 0));
         jtxtTktHeader4.setPreferredSize(new java.awt.Dimension(300, 30));
 
-        lblTktHeader5.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         lblTktHeader5.setText(AppLocal.getIntString("label.tktheader5")); // NOI18N
         lblTktHeader5.setMaximumSize(new java.awt.Dimension(0, 25));
         lblTktHeader5.setMinimumSize(new java.awt.Dimension(0, 0));
         lblTktHeader5.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jtxtTktHeader5.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jtxtTktHeader5.setMaximumSize(new java.awt.Dimension(0, 25));
         jtxtTktHeader5.setMinimumSize(new java.awt.Dimension(0, 0));
         jtxtTktHeader5.setPreferredSize(new java.awt.Dimension(300, 30));
 
-        lblTktHeader6.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         lblTktHeader6.setText(AppLocal.getIntString("label.tktheader6")); // NOI18N
         lblTktHeader6.setMaximumSize(new java.awt.Dimension(0, 25));
         lblTktHeader6.setMinimumSize(new java.awt.Dimension(0, 0));
         lblTktHeader6.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jtxtTktHeader6.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jtxtTktHeader6.setMaximumSize(new java.awt.Dimension(0, 25));
         jtxtTktHeader6.setMinimumSize(new java.awt.Dimension(0, 0));
         jtxtTktHeader6.setPreferredSize(new java.awt.Dimension(300, 30));
 
-        lblTktFooter1.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         lblTktFooter1.setText(AppLocal.getIntString("label.tktfooter1")); // NOI18N
         lblTktFooter1.setMaximumSize(new java.awt.Dimension(0, 25));
         lblTktFooter1.setMinimumSize(new java.awt.Dimension(0, 0));
         lblTktFooter1.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jtxtTktFooter1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jtxtTktFooter1.setMaximumSize(new java.awt.Dimension(0, 25));
         jtxtTktFooter1.setMinimumSize(new java.awt.Dimension(0, 0));
         jtxtTktFooter1.setPreferredSize(new java.awt.Dimension(300, 30));
 
-        lblTktFooter2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         lblTktFooter2.setText(AppLocal.getIntString("label.tktfooter2")); // NOI18N
         lblTktFooter2.setMaximumSize(new java.awt.Dimension(0, 25));
         lblTktFooter2.setMinimumSize(new java.awt.Dimension(0, 0));
         lblTktFooter2.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jtxtTktFooter2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jtxtTktFooter2.setMaximumSize(new java.awt.Dimension(0, 25));
         jtxtTktFooter2.setMinimumSize(new java.awt.Dimension(0, 0));
         jtxtTktFooter2.setPreferredSize(new java.awt.Dimension(300, 30));
 
-        lblTktFooter3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         lblTktFooter3.setText(AppLocal.getIntString("label.tktfooter3")); // NOI18N
         lblTktFooter3.setMaximumSize(new java.awt.Dimension(0, 25));
         lblTktFooter3.setMinimumSize(new java.awt.Dimension(0, 0));
         lblTktFooter3.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jtxtTktFooter3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jtxtTktFooter3.setMaximumSize(new java.awt.Dimension(0, 25));
         jtxtTktFooter3.setMinimumSize(new java.awt.Dimension(0, 0));
         jtxtTktFooter3.setPreferredSize(new java.awt.Dimension(300, 30));
 
-        lblTktFooter4.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         lblTktFooter4.setText(AppLocal.getIntString("label.tktfooter4")); // NOI18N
         lblTktFooter4.setMaximumSize(new java.awt.Dimension(0, 25));
         lblTktFooter4.setMinimumSize(new java.awt.Dimension(0, 0));
         lblTktFooter4.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jtxtTktFooter4.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jtxtTktFooter4.setMaximumSize(new java.awt.Dimension(0, 25));
         jtxtTktFooter4.setMinimumSize(new java.awt.Dimension(0, 0));
         jtxtTktFooter4.setPreferredSize(new java.awt.Dimension(300, 30));
 
-        lblTktFooter5.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         lblTktFooter5.setText(AppLocal.getIntString("label.tktfooter5")); // NOI18N
         lblTktFooter5.setMaximumSize(new java.awt.Dimension(0, 25));
         lblTktFooter5.setMinimumSize(new java.awt.Dimension(0, 0));
         lblTktFooter5.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jtxtTktFooter5.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jtxtTktFooter5.setMaximumSize(new java.awt.Dimension(0, 25));
         jtxtTktFooter5.setMinimumSize(new java.awt.Dimension(0, 0));
         jtxtTktFooter5.setPreferredSize(new java.awt.Dimension(300, 30));
 
-        lblTktFooter6.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         lblTktFooter6.setText(AppLocal.getIntString("label.tktfooter6")); // NOI18N
         lblTktFooter6.setToolTipText("");
         lblTktFooter6.setMaximumSize(new java.awt.Dimension(0, 25));
         lblTktFooter6.setMinimumSize(new java.awt.Dimension(0, 0));
         lblTktFooter6.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jtxtTktFooter6.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jtxtTktFooter6.setMaximumSize(new java.awt.Dimension(0, 25));
         jtxtTktFooter6.setMinimumSize(new java.awt.Dimension(0, 0));
         jtxtTktFooter6.setPreferredSize(new java.awt.Dimension(300, 30));

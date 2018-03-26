@@ -260,19 +260,19 @@ public class JPanelConfigGeneral extends javax.swing.JPanel implements PanelConf
         jPanel11.setOpaque(false);
         jPanel11.setPreferredSize(new java.awt.Dimension(750, 450));
 
-        jLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("宋体", 0, 14)); // NOI18N
         jLabel1.setText(AppLocal.getIntString("label.MachineName")); // NOI18N
         jLabel1.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jLabel2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("宋体", 0, 14)); // NOI18N
         jLabel2.setText(AppLocal.getIntString("label.looknfeel")); // NOI18N
         jLabel2.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jLabel3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("宋体", 0, 14)); // NOI18N
         jLabel3.setText(AppLocal.getIntString("label.MachineScreen")); // NOI18N
         jLabel3.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jLabel4.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("宋体", 0, 14)); // NOI18N
         jLabel4.setText(AppLocal.getIntString("label.Ticketsbag")); // NOI18N
         jLabel4.setPreferredSize(new java.awt.Dimension(150, 30));
 
@@ -282,7 +282,7 @@ public class JPanelConfigGeneral extends javax.swing.JPanel implements PanelConf
         jtxtMachineHostname.setMinimumSize(new java.awt.Dimension(130, 25));
         jtxtMachineHostname.setPreferredSize(new java.awt.Dimension(200, 30));
 
-        jcboLAF.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jcboLAF.setFont(new java.awt.Font("宋体", 0, 14)); // NOI18N
         jcboLAF.setToolTipText(AppLocal.getIntString("tooltip.config.general.skin")); // NOI18N
         jcboLAF.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jcboLAF.setPreferredSize(new java.awt.Dimension(200, 30));
@@ -292,18 +292,18 @@ public class JPanelConfigGeneral extends javax.swing.JPanel implements PanelConf
             }
         });
 
-        jcboMachineScreenmode.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jcboMachineScreenmode.setFont(new java.awt.Font("宋体", 0, 14)); // NOI18N
         jcboMachineScreenmode.setToolTipText(AppLocal.getIntString("tooltip.config.general.screen")); // NOI18N
         jcboMachineScreenmode.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jcboMachineScreenmode.setPreferredSize(new java.awt.Dimension(200, 30));
 
-        jcboTicketsBag.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jcboTicketsBag.setFont(new java.awt.Font("宋体", 0, 14)); // NOI18N
         jcboTicketsBag.setToolTipText(AppLocal.getIntString("tooltip.config.general.tickets")); // NOI18N
         jcboTicketsBag.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jcboTicketsBag.setPreferredSize(new java.awt.Dimension(200, 30));
 
         jchkHideInfo.setBackground(new java.awt.Color(255, 255, 255));
-        jchkHideInfo.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jchkHideInfo.setFont(new java.awt.Font("宋体", 0, 14)); // NOI18N
         java.util.ResourceBundle bundle = java.util.ResourceBundle.getBundle("pos_messages"); // NOI18N
         jchkHideInfo.setText(bundle.getString("label.Infopanel")); // NOI18N
         jchkHideInfo.setToolTipText(AppLocal.getIntString("tooltip.config.general.footer")); // NOI18N
@@ -313,25 +313,25 @@ public class JPanelConfigGeneral extends javax.swing.JPanel implements PanelConf
         jchkHideInfo.setMinimumSize(new java.awt.Dimension(0, 0));
         jchkHideInfo.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jLabel18.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel18.setFont(new java.awt.Font("宋体", 0, 14)); // NOI18N
         jLabel18.setText(bundle.getString("label.startuplogo")); // NOI18N
         jLabel18.setMaximumSize(new java.awt.Dimension(0, 25));
         jLabel18.setMinimumSize(new java.awt.Dimension(0, 0));
         jLabel18.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jtxtStartupLogo.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jtxtStartupLogo.setFont(new java.awt.Font("宋体", 0, 14)); // NOI18N
         jtxtStartupLogo.setToolTipText(AppLocal.getIntString("tooltip.config.general.logo")); // NOI18N
         jtxtStartupLogo.setMaximumSize(new java.awt.Dimension(0, 25));
         jtxtStartupLogo.setMinimumSize(new java.awt.Dimension(0, 0));
         jtxtStartupLogo.setPreferredSize(new java.awt.Dimension(400, 30));
 
-        jLabel19.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel19.setFont(new java.awt.Font("宋体", 0, 14)); // NOI18N
         jLabel19.setText(AppLocal.getIntString("label.startuptext")); // NOI18N
         jLabel19.setMaximumSize(new java.awt.Dimension(0, 25));
         jLabel19.setMinimumSize(new java.awt.Dimension(0, 0));
         jLabel19.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jtxtStartupText.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jtxtStartupText.setFont(new java.awt.Font("宋体", 0, 14)); // NOI18N
         jtxtStartupText.setToolTipText(AppLocal.getIntString("tooltip.config.general.text")); // NOI18N
         jtxtStartupText.setMaximumSize(new java.awt.Dimension(0, 25));
         jtxtStartupText.setMinimumSize(new java.awt.Dimension(0, 0));
@@ -375,11 +375,11 @@ public class JPanelConfigGeneral extends javax.swing.JPanel implements PanelConf
             }
         });
 
-        jLabel6.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel6.setFont(new java.awt.Font("宋体", 0, 14)); // NOI18N
         jLabel6.setText(AppLocal.getIntString("label.MachineDepartment")); // NOI18N
         jLabel6.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jtxtMachineDepartment.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jtxtMachineDepartment.setFont(new java.awt.Font("宋体", 0, 14)); // NOI18N
         jtxtMachineDepartment.setToolTipText(AppLocal.getIntString("tooltip.config.general.dept")); // NOI18N
         jtxtMachineDepartment.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jtxtMachineDepartment.setMinimumSize(new java.awt.Dimension(130, 25));
@@ -390,10 +390,10 @@ public class JPanelConfigGeneral extends javax.swing.JPanel implements PanelConf
         lblIP_Address.setPreferredSize(new java.awt.Dimension(200, 30));
 
         webLabel1.setText(bundle.getString("label.nameIP")); // NOI18N
-        webLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        webLabel1.setFont(new java.awt.Font("宋体", 0, 14)); // NOI18N
         webLabel1.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jLblURL.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLblURL.setFont(new java.awt.Font("宋体", 0, 14)); // NOI18N
         jLblURL.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/pay.png"))); // NOI18N
         jLblURL.setText(AppLocal.getIntString("label.URL")); // NOI18N
         jLblURL.setToolTipText(bundle.getString("tooltip.config.general.URL")); // NOI18N
@@ -407,7 +407,7 @@ public class JPanelConfigGeneral extends javax.swing.JPanel implements PanelConf
             }
         });
 
-        jtxtStartupHTML.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jtxtStartupHTML.setFont(new java.awt.Font("宋体", 0, 14)); // NOI18N
         jtxtStartupHTML.setToolTipText(AppLocal.getIntString("tooltip.config.general.text")); // NOI18N
         jtxtStartupHTML.setMaximumSize(new java.awt.Dimension(0, 25));
         jtxtStartupHTML.setMinimumSize(new java.awt.Dimension(0, 0));
@@ -553,7 +553,7 @@ public class JPanelConfigGeneral extends javax.swing.JPanel implements PanelConf
                     .addComponent(jbtnClearHTML))
                 .addGap(18, 18, 18)
                 .addComponent(jchkHideInfo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(41, Short.MAX_VALUE))
+                .addContainerGap(47, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
