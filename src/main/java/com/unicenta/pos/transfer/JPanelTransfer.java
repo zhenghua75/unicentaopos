@@ -1423,7 +1423,7 @@ System.out.println(rs.getTimestamp("DATEEND"));
             if (isValid) {
                 JOptionPane.showMessageDialog(this, 
                         AppLocal.getIntString("message.databaseconnectsuccess"), 
-                        "Connection Test", JOptionPane.INFORMATION_MESSAGE);
+                        "连接测试", JOptionPane.INFORMATION_MESSAGE);
             } else {
                 JMessageDialog.showMessage(this, 
                         new MessageInf(MessageInf.SGN_WARNING, "Connection Error"));

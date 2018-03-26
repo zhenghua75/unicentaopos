@@ -463,7 +463,7 @@ public class JPanelConfigDatabase extends javax.swing.JPanel implements PanelCon
             if (isValid) {
                 JOptionPane.showMessageDialog(this, 
                         AppLocal.getIntString("message.databasesuccess"), 
-                        "Connection Test", JOptionPane.INFORMATION_MESSAGE);
+                        "连接测试", JOptionPane.INFORMATION_MESSAGE);
 /*
  * temp placeholder for:
  * Use for autocreate default unicentaopos schema

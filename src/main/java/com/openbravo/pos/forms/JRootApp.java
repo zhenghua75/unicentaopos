@@ -70,6 +70,7 @@ import com.dalsemi.onewire.container.OneWireContainer;
 import com.dalsemi.onewire.utils.*;
 import com.dalsemi.onewire.application.monitor.*;
 import com.openbravo.pos.util.uOWWatch;
+import java.io.FileNotFoundException;
 
 /**
  *
@@ -473,11 +474,21 @@ public class JRootApp extends JPanel implements AppView, DeviceMonitorEventListe
                 
             } else {
                 try {    
-                    String newTextCode = new Scanner(new File(newText)
-                        , "UTF-8").useDelimiter("\\A").next();
-                    jLabel1.setText(newTextCode);
+                    File file = new File(newText);
+                    Scanner scan = new Scanner(file, "UTF-8").useDelimiter("\\A");
+                    if(scan.hasNextLine()){
+                        String newTextCode = scan.next();
+                        jLabel1.setText(newTextCode);
+                      }
+                }
+                 catch (FileNotFoundException ex) {
+                    System.out.print("File not found");
+                }
+                catch(NoSuchElementException e) {  
+                     System.out.print("NoSuchElementException");
                 }
                     catch (Exception e) {
+                        Logger.getLogger(JRootApp.class.getName()).log(Level.WARNING, null, e);
                 }
             
                     jLabel1.setAlignmentX(0.5F);
@@ -930,7 +941,6 @@ public class JRootApp extends JPanel implements AppView, DeviceMonitorEventListe
         m_jPanelTitle.setPreferredSize(new java.awt.Dimension(449, 40));
         m_jPanelTitle.setLayout(new java.awt.BorderLayout());
 
-        m_jLblTitle.setFont(new java.awt.Font("Arial", 1, 16)); // NOI18N
         m_jLblTitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         m_jLblTitle.setText("Window.Title");
         m_jPanelTitle.add(m_jLblTitle, java.awt.BorderLayout.CENTER);
@@ -956,7 +966,6 @@ public class JRootApp extends JPanel implements AppView, DeviceMonitorEventListe
 
         jPanel4.setLayout(new javax.swing.BoxLayout(jPanel4, javax.swing.BoxLayout.Y_AXIS));
 
-        jLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/unicenta.png"))); // NOI18N
         jLabel1.setText("<html><center>uniCenta oPOS - Touch Friendly Point of Sale<br>" +

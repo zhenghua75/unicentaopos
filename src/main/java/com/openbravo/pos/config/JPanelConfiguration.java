@@ -227,43 +227,44 @@ public class JPanelConfiguration extends JPanel implements JPanelView {
         jTabbedPane1.setPreferredSize(new java.awt.Dimension(930, 550));
 
         jPanelGeneral.setBackground(new java.awt.Color(255, 255, 255));
+        jPanelGeneral.setToolTipText("");
         jPanelGeneral.setPreferredSize(new java.awt.Dimension(0, 400));
         jPanelGeneral.setLayout(new javax.swing.BoxLayout(jPanelGeneral, javax.swing.BoxLayout.LINE_AXIS));
-        jTabbedPane1.addTab("General", jPanelGeneral);
+        jTabbedPane1.addTab("一般", jPanelGeneral);
 
         jPanelLocale.setBackground(new java.awt.Color(255, 255, 255));
         jPanelLocale.setPreferredSize(new java.awt.Dimension(0, 400));
         jPanelLocale.setLayout(new javax.swing.BoxLayout(jPanelLocale, javax.swing.BoxLayout.LINE_AXIS));
-        jTabbedPane1.addTab("Locale", jPanelLocale);
+        jTabbedPane1.addTab("本地化", jPanelLocale);
 
         jPanelPayment.setBackground(new java.awt.Color(255, 255, 255));
         jPanelPayment.setPreferredSize(new java.awt.Dimension(0, 400));
         jPanelPayment.setLayout(new javax.swing.BoxLayout(jPanelPayment, javax.swing.BoxLayout.LINE_AXIS));
-        jTabbedPane1.addTab("Payment Method", jPanelPayment);
+        jTabbedPane1.addTab("支付", jPanelPayment);
 
         jPanelPeripheral.setBackground(new java.awt.Color(255, 255, 255));
         jPanelPeripheral.setPreferredSize(new java.awt.Dimension(0, 400));
         jPanelPeripheral.setLayout(new javax.swing.BoxLayout(jPanelPeripheral, javax.swing.BoxLayout.LINE_AXIS));
-        jTabbedPane1.addTab("Peripherals", jPanelPeripheral);
+        jTabbedPane1.addTab("外设", jPanelPeripheral);
 
         jPanelSystem.setBackground(new java.awt.Color(255, 255, 255));
         jPanelSystem.setPreferredSize(new java.awt.Dimension(0, 400));
         jPanelSystem.setLayout(new javax.swing.BoxLayout(jPanelSystem, javax.swing.BoxLayout.LINE_AXIS));
-        jTabbedPane1.addTab("System Options", jPanelSystem);
+        jTabbedPane1.addTab("系统选项", jPanelSystem);
 
         jPanelTicketSetup.setBackground(new java.awt.Color(255, 255, 255));
         jPanelTicketSetup.setPreferredSize(new java.awt.Dimension(0, 400));
         jPanelTicketSetup.setLayout(new javax.swing.BoxLayout(jPanelTicketSetup, javax.swing.BoxLayout.LINE_AXIS));
-        jTabbedPane1.addTab("Ticket Setup", jPanelTicketSetup);
+        jTabbedPane1.addTab("小票", jPanelTicketSetup);
 
         jPanelCompany.setBackground(new java.awt.Color(255, 255, 255));
         jPanelCompany.setLayout(new javax.swing.BoxLayout(jPanelCompany, javax.swing.BoxLayout.LINE_AXIS));
-        jTabbedPane1.addTab("Company", jPanelCompany);
+        jTabbedPane1.addTab("公司", jPanelCompany);
 
         jPanelDatabase.setBackground(new java.awt.Color(255, 255, 255));
         jPanelDatabase.setPreferredSize(new java.awt.Dimension(0, 400));
         jPanelDatabase.setLayout(new javax.swing.BoxLayout(jPanelDatabase, javax.swing.BoxLayout.LINE_AXIS));
-        jTabbedPane1.addTab("Database Setup", jPanelDatabase);
+        jTabbedPane1.addTab("数据库", jPanelDatabase);
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
 

@@ -144,7 +144,6 @@ public class JMessageDialog extends javax.swing.JDialog {
         });
 
         jPanel4.setBorder(javax.swing.BorderFactory.createEmptyBorder(5, 5, 5, 5));
-        jPanel4.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jPanel4.setLayout(new javax.swing.BoxLayout(jPanel4, javax.swing.BoxLayout.Y_AXIS));
 
         jlblErrorCode.setText("jlblErrorCode");
@@ -159,7 +158,6 @@ public class JMessageDialog extends javax.swing.JDialog {
         jscrException.setAlignmentX(0.0F);
 
         jtxtException.setEditable(false);
-        jtxtException.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jscrException.setViewportView(jtxtException);
 
         jPanel4.add(jscrException);

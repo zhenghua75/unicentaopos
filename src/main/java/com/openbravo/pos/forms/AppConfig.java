@@ -281,7 +281,7 @@ public class AppConfig implements AppProperties {
 
 // primary DB
         m_propsconfig.setProperty("db.name", "Main DB");
-        m_propsconfig.setProperty("db.URL", "jdbc:mysql://localhost:3306/unicentaopos?zeroDateTimeBehavior=convertToNull"); 
+        m_propsconfig.setProperty("db.URL", "jdbc:mysql://localhost:3306/unicentaopos?zeroDateTimeBehavior=convertToNull&useUnicode=true&characterEncoding=UTF-8"); 
         m_propsconfig.setProperty("db.user", "username");
         m_propsconfig.setProperty("db.password", "password");     
 

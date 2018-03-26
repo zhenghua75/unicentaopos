@@ -1979,7 +1979,7 @@ public final class Transfer extends JPanel implements JPanelView {
                 
                 JOptionPane.showMessageDialog(this, 
                         AppLocal.getIntString("message.databaseconnectsuccess"), 
-                        "Connection Test"
+                        "连接测试"
                         , JOptionPane.INFORMATION_MESSAGE);
             
                 jbtnTransfer.setEnabled(true);

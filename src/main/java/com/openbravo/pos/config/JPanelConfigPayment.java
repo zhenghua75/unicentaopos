@@ -136,12 +136,10 @@ public class JPanelConfigPayment extends javax.swing.JPanel implements PanelConf
         jcboCardReader = new javax.swing.JComboBox();
 
         setBackground(new java.awt.Color(255, 255, 255));
-        setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         setPreferredSize(new java.awt.Dimension(590, 450));
 
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
         jPanel2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 204, 204)));
-        jPanel2.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jPanel2.setPreferredSize(new java.awt.Dimension(600, 200));
         jPanel2.setLayout(new java.awt.GridLayout(1, 1));
 
