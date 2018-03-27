@@ -1189,7 +1189,6 @@ public final class ProductsEditor extends javax.swing.JPanel implements EditorRe
         setLayout(null);
 
         m_jTitle.setBackground(new java.awt.Color(255, 255, 255));
-        m_jTitle.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jTitle.setForeground(new java.awt.Color(102, 102, 102));
         m_jTitle.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         m_jTitle.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
@@ -1200,12 +1199,10 @@ public final class ProductsEditor extends javax.swing.JPanel implements EditorRe
         add(m_jTitle);
         m_jTitle.setBounds(365, 5, 260, 25);
 
-        jTabbedPane1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jTabbedPane1.setPreferredSize(new java.awt.Dimension(680, 420));
 
         jPanel1.setPreferredSize(new java.awt.Dimension(0, 0));
 
-        jLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/info.png"))); // NOI18N
         jLabel1.setText(AppLocal.getIntString("label.prodrefm")); // NOI18N
         jLabel1.setPreferredSize(new java.awt.Dimension(110, 30));
@@ -1215,7 +1212,6 @@ public final class ProductsEditor extends javax.swing.JPanel implements EditorRe
             }
         });
 
-        m_jRef.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jRef.setToolTipText("");
         m_jRef.setPreferredSize(new java.awt.Dimension(150, 30));
         m_jRef.addFocusListener(new java.awt.event.FocusAdapter() {
@@ -1224,22 +1220,17 @@ public final class ProductsEditor extends javax.swing.JPanel implements EditorRe
             }
         });
 
-        jLabel6.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel6.setText(AppLocal.getIntString("label.prodbarcodem")); // NOI18N
         jLabel6.setPreferredSize(new java.awt.Dimension(100, 30));
 
-        m_jCode.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jCode.setPreferredSize(new java.awt.Dimension(125, 30));
 
-        m_jCodetype.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jCodetype.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "EAN-13", "EAN-8", "CODE128", "Upc-A", "Upc-E" }));
         m_jCodetype.setPreferredSize(new java.awt.Dimension(80, 30));
 
-        jLabel2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel2.setText(AppLocal.getIntString("label.prodnamem")); // NOI18N
         jLabel2.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        m_jName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jName.setPreferredSize(new java.awt.Dimension(450, 30));
         m_jName.addFocusListener(new java.awt.event.FocusAdapter() {
             public void focusLost(java.awt.event.FocusEvent evt) {
@@ -1247,67 +1238,52 @@ public final class ProductsEditor extends javax.swing.JPanel implements EditorRe
             }
         });
 
-        jLabel5.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel5.setText(AppLocal.getIntString("label.prodcategorym")); // NOI18N
         jLabel5.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        m_jCategory.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jCategory.setBorder(null);
         m_jCategory.setPreferredSize(new java.awt.Dimension(450, 30));
 
-        jLabel13.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel13.setText(AppLocal.getIntString("label.attributes")); // NOI18N
         jLabel13.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        m_jAtt.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jAtt.setPreferredSize(new java.awt.Dimension(200, 30));
 
-        jLabel7.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel7.setText(AppLocal.getIntString("label.taxcategorym")); // NOI18N
         jLabel7.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        m_jTax.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jTax.setPreferredSize(new java.awt.Dimension(200, 30));
 
-        jLabel16.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel16.setText(AppLocal.getIntString("label.prodpriceselltaxm")); // NOI18N
         jLabel16.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        m_jPriceSellTax.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jPriceSellTax.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         m_jPriceSellTax.setPreferredSize(new java.awt.Dimension(200, 30));
 
-        jLabel4.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         jLabel4.setText(AppLocal.getIntString("label.prodpricesell")); // NOI18N
         jLabel4.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        m_jPriceSell.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jPriceSell.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         m_jPriceSell.setPreferredSize(new java.awt.Dimension(200, 30));
 
-        jLabel19.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel19.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         java.util.ResourceBundle bundle = java.util.ResourceBundle.getBundle("pos_messages"); // NOI18N
         jLabel19.setText(bundle.getString("label.margin")); // NOI18N
         jLabel19.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        m_jmargin.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jmargin.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
-        m_jmargin.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
+        m_jmargin.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         m_jmargin.setEnabled(false);
         m_jmargin.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        jLabel3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel3.setText(AppLocal.getIntString("label.prodpricebuym")); // NOI18N
         jLabel3.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        m_jPriceBuy.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jPriceBuy.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         m_jPriceBuy.setText("0");
         m_jPriceBuy.setPreferredSize(new java.awt.Dimension(200, 30));
 
-        m_jVerpatrib.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jVerpatrib.setText(bundle.getString("label.mandatory")); // NOI18N
         m_jVerpatrib.setHorizontalTextPosition(javax.swing.SwingConstants.LEADING);
         m_jVerpatrib.setPreferredSize(new java.awt.Dimension(49, 30));
@@ -1317,35 +1293,28 @@ public final class ProductsEditor extends javax.swing.JPanel implements EditorRe
             }
         });
 
-        m_jGrossProfit.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jGrossProfit.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         m_jGrossProfit.setDisabledTextColor(new java.awt.Color(0, 0, 0));
         m_jGrossProfit.setEnabled(false);
         m_jGrossProfit.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        jLabel22.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel22.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel22.setText(bundle.getString("label.grossprofit")); // NOI18N
         jLabel22.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jLabel22.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        jLabel26.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel26.setText(AppLocal.getIntString("label.UOM")); // NOI18N
         jLabel26.setPreferredSize(new java.awt.Dimension(70, 30));
 
-        m_jUom.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jUom.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jLabel17.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel17.setText(AppLocal.getIntString("label.prodsupplier")); // NOI18N
         jLabel17.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        m_jSupplier.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jSupplier.setPreferredSize(new java.awt.Dimension(200, 30));
 
         webBtnSupplier.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/customer_add_sml.png"))); // NOI18N
         webBtnSupplier.setText(AppLocal.getIntString("label.supplier")); // NOI18N
-        webBtnSupplier.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
         webBtnSupplier.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 webBtnSupplierActionPerformed(evt);
@@ -1498,29 +1467,23 @@ public final class ProductsEditor extends javax.swing.JPanel implements EditorRe
 
         jPanel2.setPreferredSize(new java.awt.Dimension(0, 0));
 
-        jLabel9.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel9.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         jLabel9.setText(AppLocal.getIntString("label.prodstockcost")); // NOI18N
         jLabel9.setPreferredSize(new java.awt.Dimension(130, 30));
 
-        m_jstockcost.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jstockcost.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         m_jstockcost.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        jLabel10.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel10.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         jLabel10.setText(AppLocal.getIntString("label.prodstockvol")); // NOI18N
         jLabel10.setPreferredSize(new java.awt.Dimension(130, 30));
 
-        m_jstockvolume.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jstockvolume.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         m_jstockvolume.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        jLabel8.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel8.setText(AppLocal.getIntString("label.prodincatalog")); // NOI18N
         jLabel8.setPreferredSize(new java.awt.Dimension(130, 30));
 
-        m_jInCatalog.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         m_jInCatalog.setSelected(true);
         m_jInCatalog.setPreferredSize(new java.awt.Dimension(30, 30));
         m_jInCatalog.addActionListener(new java.awt.event.ActionListener() {
@@ -1529,60 +1492,45 @@ public final class ProductsEditor extends javax.swing.JPanel implements EditorRe
             }
         });
 
-        jLabel18.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel18.setText(AppLocal.getIntString("label.prodorder")); // NOI18N
         jLabel18.setPreferredSize(new java.awt.Dimension(130, 30));
 
-        m_jCatalogOrder.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jCatalogOrder.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         m_jCatalogOrder.setPreferredSize(new java.awt.Dimension(50, 30));
 
-        jLabel15.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel15.setText(bundle.getString("label.service")); // NOI18N
         jLabel15.setPreferredSize(new java.awt.Dimension(130, 30));
 
-        m_jService.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         m_jService.setToolTipText("A Service Item will not be deducted from the Inventory");
         m_jService.setPreferredSize(new java.awt.Dimension(30, 30));
 
-        jLabel11.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel11.setText(AppLocal.getIntString("label.prodaux")); // NOI18N
         jLabel11.setPreferredSize(new java.awt.Dimension(130, 30));
 
-        m_jComment.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         m_jComment.setPreferredSize(new java.awt.Dimension(30, 30));
 
-        jLabel12.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel12.setText(AppLocal.getIntString("label.prodscale")); // NOI18N
         jLabel12.setPreferredSize(new java.awt.Dimension(130, 30));
 
-        m_jScale.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         m_jScale.setPreferredSize(new java.awt.Dimension(30, 30));
 
-        m_jConstant.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         m_jConstant.setPreferredSize(new java.awt.Dimension(30, 30));
 
-        jLabel14.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel14.setText(bundle.getString("label.prodconstant")); // NOI18N
         jLabel14.setPreferredSize(new java.awt.Dimension(130, 30));
 
-        jLabel20.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel20.setText(bundle.getString("label.variableprice")); // NOI18N
         jLabel20.setPreferredSize(new java.awt.Dimension(130, 30));
 
-        m_jVprice.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         m_jVprice.setPreferredSize(new java.awt.Dimension(30, 30));
 
-        jLabel33.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel33.setText(bundle.getString("label.warranty")); // NOI18N
         jLabel33.setToolTipText(bundle.getString("label.warranty")); // NOI18N
         jLabel33.setPreferredSize(new java.awt.Dimension(130, 30));
 
-        m_jCheckWarrantyReceipt.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jCheckWarrantyReceipt.setText(bundle.getString("label.productreceipt")); // NOI18N
         m_jCheckWarrantyReceipt.setPreferredSize(new java.awt.Dimension(30, 30));
 
-        jLabel23.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jLabel23.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel23.setText(bundle.getString("label.prodminmax")); // NOI18N
         jLabel23.setVerticalAlignment(javax.swing.SwingConstants.TOP);
@@ -1590,14 +1538,11 @@ public final class ProductsEditor extends javax.swing.JPanel implements EditorRe
 
         webLabel1.setText(bundle.getString("label.printto")); // NOI18N
         webLabel1.setToolTipText(bundle.getString("tooltip.printto")); // NOI18N
-        webLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         webLabel1.setPreferredSize(new java.awt.Dimension(130, 30));
 
-        m_jPrintTo.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jPrintTo.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "0", "1", "2", "3", "4", "5", "6" }));
         m_jPrintTo.setPreferredSize(new java.awt.Dimension(50, 30));
 
-        jBtnShowTrans.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jBtnShowTrans.setText(bundle.getString("button.ProductStock")); // NOI18N
         jBtnShowTrans.setToolTipText("");
         jBtnShowTrans.setPreferredSize(new java.awt.Dimension(140, 25));
@@ -1606,8 +1551,6 @@ public final class ProductsEditor extends javax.swing.JPanel implements EditorRe
                 jBtnShowTransActionPerformed(evt);
             }
         });
-
-        jScrollPane2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
 
         jTableProductStock.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -1624,21 +1567,14 @@ public final class ProductsEditor extends javax.swing.JPanel implements EditorRe
                 "Location", "Current", "Minimum", "Maximum"
             }
         ));
-        jTableProductStock.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jTableProductStock.setRowHeight(25);
         jScrollPane2.setViewportView(jTableProductStock);
 
-        m_jPrintKB.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-
-        m_jSendStatus.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-
         m_jStockUnits.setEditable(false);
-        m_jStockUnits.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         m_jStockUnits.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         m_jStockUnits.setText("0");
         m_jStockUnits.setBorder(null);
 
-        jLblDate.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLblDate.setText(bundle.getString("label.proddate")); // NOI18N
         jLblDate.setPreferredSize(new java.awt.Dimension(130, 30));
 
@@ -1650,7 +1586,6 @@ public final class ProductsEditor extends javax.swing.JPanel implements EditorRe
             }
         });
 
-        m_jdate.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jdate.setPreferredSize(new java.awt.Dimension(160, 30));
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
@@ -1803,14 +1738,11 @@ public final class ProductsEditor extends javax.swing.JPanel implements EditorRe
 
         jTabbedPane1.addTab(AppLocal.getIntString("label.prodstock"), jPanel2); // NOI18N
 
-        jPanel4.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jPanel4.setPreferredSize(new java.awt.Dimension(0, 0));
 
-        jLabel28.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel28.setText(bundle.getString("label.prodbuttonhtml")); // NOI18N
         jLabel28.setPreferredSize(new java.awt.Dimension(250, 30));
 
-        jButtonHTML.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jButtonHTML.setText(bundle.getString("button.htmltest")); // NOI18N
         jButtonHTML.setMargin(new java.awt.Insets(1, 1, 1, 1));
         jButtonHTML.setMaximumSize(new java.awt.Dimension(96, 72));
@@ -1824,8 +1756,6 @@ public final class ProductsEditor extends javax.swing.JPanel implements EditorRe
 
         colourChooser.setForeground(new java.awt.Color(0, 153, 255));
         colourChooser.setToolTipText(bundle.getString("tooltip.prodhtmldisplayColourChooser")); // NOI18N
-        colourChooser.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        colourChooser.setPreferredSize(new java.awt.Dimension(120, 30));
         colourChooser.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 colourChooserActionPerformed(evt);
@@ -1834,7 +1764,6 @@ public final class ProductsEditor extends javax.swing.JPanel implements EditorRe
 
         webBtnBreak.setText(bundle.getString("button.prodhtmldisplayBreak")); // NOI18N
         webBtnBreak.setToolTipText(bundle.getString("tooltip.prodhtmldisplayBreak")); // NOI18N
-        webBtnBreak.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         webBtnBreak.setPreferredSize(new java.awt.Dimension(80, 35));
         webBtnBreak.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1845,7 +1774,6 @@ public final class ProductsEditor extends javax.swing.JPanel implements EditorRe
         webBtnColour.setForeground(new java.awt.Color(102, 153, 255));
         webBtnColour.setText(bundle.getString("button.prodhtmldisplayColour")); // NOI18N
         webBtnColour.setToolTipText(bundle.getString("tooltip.prodhtmldisplayColour")); // NOI18N
-        webBtnColour.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
         webBtnColour.setPreferredSize(new java.awt.Dimension(80, 35));
         webBtnColour.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1855,7 +1783,6 @@ public final class ProductsEditor extends javax.swing.JPanel implements EditorRe
 
         webBtnLarge.setText(bundle.getString("button.prodhtmldisplayLarge")); // NOI18N
         webBtnLarge.setToolTipText(bundle.getString("tooltip.prodhtmldisplayLarge")); // NOI18N
-        webBtnLarge.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         webBtnLarge.setPreferredSize(new java.awt.Dimension(80, 35));
         webBtnLarge.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1865,7 +1792,6 @@ public final class ProductsEditor extends javax.swing.JPanel implements EditorRe
 
         webBtnSmall.setText(bundle.getString("button.prodhtmldisplaySmall")); // NOI18N
         webBtnSmall.setToolTipText(bundle.getString("tooltip.prodhtmldisplaySmall")); // NOI18N
-        webBtnSmall.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
         webBtnSmall.setPreferredSize(new java.awt.Dimension(80, 35));
         webBtnSmall.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1875,7 +1801,6 @@ public final class ProductsEditor extends javax.swing.JPanel implements EditorRe
 
         webBtnBold.setText(bundle.getString("button.prodhtmldisplayBold")); // NOI18N
         webBtnBold.setToolTipText(bundle.getString("tooltip.prodhtmldisplayBold")); // NOI18N
-        webBtnBold.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
         webBtnBold.setPreferredSize(new java.awt.Dimension(80, 35));
         webBtnBold.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1885,7 +1810,6 @@ public final class ProductsEditor extends javax.swing.JPanel implements EditorRe
 
         webBtnItalic.setText(bundle.getString("button.prodhtmldisplayItalic")); // NOI18N
         webBtnItalic.setToolTipText(bundle.getString("tooltip.prodhtmldisplayItalic")); // NOI18N
-        webBtnItalic.setFont(new java.awt.Font("Arial", 2, 12)); // NOI18N
         webBtnItalic.setPreferredSize(new java.awt.Dimension(80, 35));
         webBtnItalic.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1895,7 +1819,6 @@ public final class ProductsEditor extends javax.swing.JPanel implements EditorRe
 
         webBtnURL.setText(bundle.getString("button.prodhtmldisplayImage")); // NOI18N
         webBtnURL.setToolTipText(bundle.getString("tooltip.prodhtmldisplayImage")); // NOI18N
-        webBtnURL.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         webBtnURL.setPreferredSize(new java.awt.Dimension(80, 35));
         webBtnURL.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1906,7 +1829,6 @@ public final class ProductsEditor extends javax.swing.JPanel implements EditorRe
         webBtnReset.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/reload.png"))); // NOI18N
         webBtnReset.setText(bundle.getString("button.prodhtmldisplayReset")); // NOI18N
         webBtnReset.setToolTipText(bundle.getString("tooltip.prodhtmldisplayReset")); // NOI18N
-        webBtnReset.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         webBtnReset.setPreferredSize(new java.awt.Dimension(80, 35));
         webBtnReset.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1914,11 +1836,9 @@ public final class ProductsEditor extends javax.swing.JPanel implements EditorRe
             }
         });
 
-        jLabel21.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel21.setText(bundle.getString("label.texttip")); // NOI18N
         jLabel21.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        m_jTextTip.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jTextTip.setPreferredSize(new java.awt.Dimension(400, 30));
 
         m_jDisplay.setColumns(20);
@@ -2009,7 +1929,6 @@ public final class ProductsEditor extends javax.swing.JPanel implements EditorRe
 
         jScrollPane1.setPreferredSize(new java.awt.Dimension(680, 400));
 
-        txtAttributes.setFont(new java.awt.Font("Monospaced", 0, 14)); // NOI18N
         txtAttributes.setLineWrap(true);
         txtAttributes.setWrapStyleWord(true);
         txtAttributes.setPreferredSize(new java.awt.Dimension(580, 300));
@@ -2017,7 +1936,6 @@ public final class ProductsEditor extends javax.swing.JPanel implements EditorRe
 
         jPanel3.add(jScrollPane1, java.awt.BorderLayout.CENTER);
 
-        jBtnXml.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jBtnXml.setText(bundle.getString("button.injectxml")); // NOI18N
         jBtnXml.setToolTipText(bundle.getString("tooltip.xmlheader")); // NOI18N
         jBtnXml.addActionListener(new java.awt.event.ActionListener() {
@@ -2031,7 +1949,6 @@ public final class ProductsEditor extends javax.swing.JPanel implements EditorRe
 
         jPanel6.setPreferredSize(new java.awt.Dimension(0, 0));
 
-        jLabel34.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel34.setText(bundle.getString("label.imagesize")); // NOI18N
         jLabel34.setPreferredSize(new java.awt.Dimension(500, 30));
 
