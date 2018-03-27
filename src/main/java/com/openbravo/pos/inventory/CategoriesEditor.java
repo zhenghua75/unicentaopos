@@ -285,7 +285,6 @@ public final class CategoriesEditor extends JPanel implements EditorRecord {
 
         setPreferredSize(new java.awt.Dimension(500, 500));
 
-        jLblName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLblName.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/info.png"))); // NOI18N
         jLblName.setText(AppLocal.getIntString("label.namem")); // NOI18N
         jLblName.setPreferredSize(new java.awt.Dimension(150, 30));
@@ -295,53 +294,41 @@ public final class CategoriesEditor extends JPanel implements EditorRecord {
             }
         });
 
-        m_jName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jName.setPreferredSize(new java.awt.Dimension(250, 30));
 
-        jLblCategory.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLblCategory.setText(AppLocal.getIntString("label.prodcategory")); // NOI18N
         jLblCategory.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        m_jCategory.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jCategory.setPreferredSize(new java.awt.Dimension(250, 30));
 
-        jLblTextTip.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         java.util.ResourceBundle bundle = java.util.ResourceBundle.getBundle("pos_messages"); // NOI18N
         jLblTextTip.setText(bundle.getString("label.texttip")); // NOI18N
         jLblTextTip.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        m_jTextTip.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jTextTip.setPreferredSize(new java.awt.Dimension(250, 30));
 
-        jLblCatShowName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLblCatShowName.setText(bundle.getString("label.subcategorytitle")); // NOI18N
         jLblCatShowName.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        m_jCatNameShow.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         m_jCatNameShow.setSelected(true);
         m_jCatNameShow.setPreferredSize(new java.awt.Dimension(30, 30));
 
-        jLblCatOrder.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLblCatOrder.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         jLblCatOrder.setText(bundle.getString("label.ccatorder")); // NOI18N
         jLblCatOrder.setPreferredSize(new java.awt.Dimension(60, 30));
 
-        m_jCatOrder.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         m_jCatOrder.setPreferredSize(new java.awt.Dimension(60, 30));
 
-        jLblImage.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLblImage.setText(AppLocal.getIntString("label.image")); // NOI18N
         jLblImage.setPreferredSize(new java.awt.Dimension(150, 30));
 
         m_jImage.setPreferredSize(new java.awt.Dimension(300, 250));
 
-        jLblInCat.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLblInCat.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         jLblInCat.setText(bundle.getString("label.CatalogueStatusYes")); // NOI18N
         jLblInCat.setHorizontalTextPosition(javax.swing.SwingConstants.LEFT);
         jLblInCat.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        webSwtch_InCatalog.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         webSwtch_InCatalog.setPreferredSize(new java.awt.Dimension(80, 30));
         webSwtch_InCatalog.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

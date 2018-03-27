@@ -70,7 +70,9 @@ import com.dalsemi.onewire.container.OneWireContainer;
 import com.dalsemi.onewire.utils.*;
 import com.dalsemi.onewire.application.monitor.*;
 import com.openbravo.pos.util.uOWWatch;
+import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import org.apache.commons.io.IOUtils;
 
 /**
  *
@@ -474,12 +476,15 @@ public class JRootApp extends JPanel implements AppView, DeviceMonitorEventListe
                 
             } else {
                 try {    
-                    File file = new File(newText);
-                    Scanner scan = new Scanner(file, "UTF-8").useDelimiter("\\A");
-                    if(scan.hasNextLine()){
-                        String newTextCode = scan.next();
-                        jLabel1.setText(newTextCode);
-                      }
+                    //File file = new File(newText);
+                    //Scanner scan = new Scanner(file, "UTF-8").useDelimiter("\\A");
+                    //if(scan.hasNextLine()){
+                    //    String newTextCode = scan.next();
+                    //    jLabel1.setText(newTextCode);
+                    //  }
+                    FileInputStream fis = new FileInputStream(newText);
+                    String StringFromInputStream = IOUtils.toString(fis, "UTF-8");
+                    jLabel1.setText(StringFromInputStream);
                 }
                  catch (FileNotFoundException ex) {
                     System.out.print("File not found");
@@ -953,7 +958,6 @@ public class JRootApp extends JPanel implements AppView, DeviceMonitorEventListe
         poweredby.setPreferredSize(new java.awt.Dimension(180, 34));
         m_jPanelTitle.add(poweredby, java.awt.BorderLayout.LINE_END);
 
-        jLabel2.setFont(new java.awt.Font("Arial", 1, 16)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(102, 102, 102));
         jLabel2.setPreferredSize(new java.awt.Dimension(180, 34));
         m_jPanelTitle.add(jLabel2, java.awt.BorderLayout.LINE_START);
@@ -1003,7 +1007,6 @@ public class JRootApp extends JPanel implements AppView, DeviceMonitorEventListe
 
         jScrollPane1.setBorder(null);
         jScrollPane1.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
-        jScrollPane1.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
 
         m_txtKeys.setPreferredSize(new java.awt.Dimension(0, 0));
         m_txtKeys.addKeyListener(new java.awt.event.KeyAdapter() {
@@ -1012,7 +1015,6 @@ public class JRootApp extends JPanel implements AppView, DeviceMonitorEventListe
             }
         });
 
-        m_jClose.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         m_jClose.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/exit.png"))); // NOI18N
         m_jClose.setText(AppLocal.getIntString("button.close")); // NOI18N
         m_jClose.setFocusPainted(false);
@@ -1084,17 +1086,14 @@ public class JRootApp extends JPanel implements AppView, DeviceMonitorEventListe
         m_jPanelDown.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 0, 0, 0, javax.swing.UIManager.getDefaults().getColor("Button.darkShadow")));
         m_jPanelDown.setLayout(new java.awt.BorderLayout());
 
-        m_jHost.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
         m_jHost.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/display.png"))); // NOI18N
         m_jHost.setText("*Hostname");
         panelTask.add(m_jHost);
 
-        webMemoryBar1.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
         webMemoryBar1.setPreferredSize(new java.awt.Dimension(150, 30));
         panelTask.add(webMemoryBar1);
 
         serverMonitor.setToolTipText("");
-        serverMonitor.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         serverMonitor.setMaximumSize(new java.awt.Dimension(50, 18));
         serverMonitor.setPreferredSize(new java.awt.Dimension(150, 30));
         serverMonitor.setProgressBottomColor(new java.awt.Color(76, 197, 237));
