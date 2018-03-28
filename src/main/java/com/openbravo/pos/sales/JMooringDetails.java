@@ -166,7 +166,6 @@ public class JMooringDetails extends javax.swing.JDialog {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
-        jbtnCreateTicket.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jbtnCreateTicket.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/ok.png"))); // NOI18N
         java.util.ResourceBundle bundle = java.util.ResourceBundle.getBundle("pos_messages"); // NOI18N
         jbtnCreateTicket.setText(bundle.getString("label.mooringcreatebtn")); // NOI18N
@@ -176,7 +175,6 @@ public class JMooringDetails extends javax.swing.JDialog {
             }
         });
 
-        jTableSelector.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jTableSelector.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null},
@@ -212,7 +210,6 @@ public class JMooringDetails extends javax.swing.JDialog {
         jTableSelector.getColumnModel().getColumn(3).setResizable(false);
         jTableSelector.getColumnModel().getColumn(3).setPreferredWidth(70);
 
-        jText.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jText.setDisabledTextColor(new java.awt.Color(0, 0, 0));
         jText.setEnabled(false);
         jText.addActionListener(new java.awt.event.ActionListener() {
@@ -221,7 +218,6 @@ public class JMooringDetails extends javax.swing.JDialog {
             }
         });
 
-        jLabel1.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jLabel1.setText(bundle.getString("label.mooringscreatefor")); // NOI18N
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());

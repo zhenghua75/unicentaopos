@@ -126,10 +126,8 @@ public class CategoryFilter extends javax.swing.JPanel implements ReportEditorCr
         m_jCategory = new javax.swing.JComboBox();
         jLabel1 = new javax.swing.JLabel();
 
-        m_jCategory.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jCategory.setPreferredSize(new java.awt.Dimension(200, 30));
 
-        jLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel1.setText(AppLocal.getIntString("label.prodcategory")); // NOI18N
         jLabel1.setPreferredSize(new java.awt.Dimension(150, 30));
 

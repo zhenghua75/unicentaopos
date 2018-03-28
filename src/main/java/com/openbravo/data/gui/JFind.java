@@ -136,7 +136,6 @@ public class JFind extends JDialog {
 
         m_jFind.setPreferredSize(new java.awt.Dimension(250, 30));
 
-        jLabel2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel2.setText(LocalRes.getIntString("label.where")); // NOI18N
         jLabel2.setPreferredSize(new java.awt.Dimension(150, 30));
 

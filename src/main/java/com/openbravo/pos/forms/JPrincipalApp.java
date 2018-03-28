@@ -200,7 +200,6 @@ public class JPrincipalApp extends javax.swing.JPanel implements AppUserView {
             taskGroup.setRequestFocusEnabled(false);
             taskGroup.setTitle(AppLocal.getIntString(key));
             taskGroup.setVisible(false);
-//            taskGroup.setFont(new java.awt.Font("Arial",0,16));
         }
         
         /**

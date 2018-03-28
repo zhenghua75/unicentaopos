@@ -160,15 +160,12 @@ public final class VoucherEditor extends javax.swing.JPanel implements EditorRec
         jButtonPrint = new javax.swing.JButton();
         webCBCustomer = new com.alee.laf.combobox.WebComboBox();
 
-        setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
 
-        jLabel2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel2.setText(AppLocal.getIntString("label.Number")); // NOI18N
         jLabel2.setPreferredSize(new java.awt.Dimension(100, 30));
 
         m_jNumber.setPreferredSize(new java.awt.Dimension(240, 30));
 
-        jLabel3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel3.setText(AppLocal.getIntString("label.customer")); // NOI18N
         jLabel3.setPreferredSize(new java.awt.Dimension(100, 30));
 
@@ -177,11 +174,9 @@ public final class VoucherEditor extends javax.swing.JPanel implements EditorRec
 
         m_jAmount.setPreferredSize(new java.awt.Dimension(240, 30));
 
-        jLabel5.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel5.setText(AppLocal.getIntString("label.paymenttotal")); // NOI18N
         jLabel5.setPreferredSize(new java.awt.Dimension(100, 30));
 
-        jButtonPrint.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jButtonPrint.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/printer24.png"))); // NOI18N
         jButtonPrint.setToolTipText(AppLocal.getIntString("button.print")); // NOI18N
         jButtonPrint.setFocusPainted(false);
@@ -198,7 +193,6 @@ public final class VoucherEditor extends javax.swing.JPanel implements EditorRec
         webCBCustomer.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Find", "Create" }));
         webCBCustomer.setToolTipText(AppLocal.getIntString("tooltip.vouchercustomer")); // NOI18N
         webCBCustomer.setExpandIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/customer.png")));
-        webCBCustomer.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         webCBCustomer.setPreferredSize(new java.awt.Dimension(110, 45));
         webCBCustomer.setRound(3);
         webCBCustomer.setShadeWidth(3);

@@ -132,10 +132,8 @@ public class JParamsSuppliers extends javax.swing.JPanel implements ReportEditor
         btnSupplier = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
 
-        setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         setPreferredSize(new java.awt.Dimension(400, 50));
 
-        jTextField1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jTextField1.setPreferredSize(new java.awt.Dimension(300, 30));
 
         btnSupplier.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/customer_sml.png"))); // NOI18N
@@ -147,7 +145,6 @@ public class JParamsSuppliers extends javax.swing.JPanel implements ReportEditor
             }
         });
 
-        jLabel2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel2.setText(AppLocal.getIntString("label.supplier")); // NOI18N
         jLabel2.setPreferredSize(new java.awt.Dimension(100, 30));
 

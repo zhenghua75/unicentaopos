@@ -70,7 +70,6 @@ public class ConfigPaymentPanelEmpty extends javax.swing.JPanel implements Payme
     private void initComponents() {
 
         setBackground(new java.awt.Color(255, 255, 255));
-        setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         setPreferredSize(new java.awt.Dimension(650, 75));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);

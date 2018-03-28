@@ -325,14 +325,12 @@ public class JTicketsBagTicket extends JTicketsBag {
 
         setLayout(new java.awt.BorderLayout());
 
-        m_jTicketId.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jTicketId.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         m_jTicketId.setBorder(javax.swing.BorderFactory.createCompoundBorder(javax.swing.BorderFactory.createLineBorder(javax.swing.UIManager.getDefaults().getColor("Button.darkShadow")), javax.swing.BorderFactory.createEmptyBorder(1, 4, 1, 4)));
         m_jTicketId.setOpaque(true);
         m_jTicketId.setPreferredSize(new java.awt.Dimension(200, 30));
         m_jTicketId.setRequestFocusEnabled(false);
 
-        jButton2.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
         jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/search24.png"))); // NOI18N
         java.util.ResourceBundle bundle = java.util.ResourceBundle.getBundle("pos_messages"); // NOI18N
         jButton2.setToolTipText(bundle.getString("tooltip.ticketsearch")); // NOI18N
@@ -349,7 +347,6 @@ public class JTicketsBagTicket extends JTicketsBag {
             }
         });
 
-        m_jEdit.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
         m_jEdit.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/sale_editline.png"))); // NOI18N
         m_jEdit.setToolTipText(bundle.getString("tooltip.ticketedit")); // NOI18N
         m_jEdit.setFocusPainted(false);
@@ -365,7 +362,6 @@ public class JTicketsBagTicket extends JTicketsBag {
             }
         });
 
-        m_jRefund.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
         m_jRefund.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/inbox.png"))); // NOI18N
         m_jRefund.setToolTipText(bundle.getString("tooltip.ticketrefund")); // NOI18N
         m_jRefund.setFocusPainted(false);
@@ -381,7 +377,6 @@ public class JTicketsBagTicket extends JTicketsBag {
             }
         });
 
-        m_jPrint.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
         m_jPrint.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/printer24.png"))); // NOI18N
         m_jPrint.setToolTipText(bundle.getString("tooltip.ticketreprint")); // NOI18N
         m_jPrint.setFocusPainted(false);
@@ -440,7 +435,6 @@ public class JTicketsBagTicket extends JTicketsBag {
         add(m_jOptions, java.awt.BorderLayout.NORTH);
 
         m_jPanelTicket.setBorder(javax.swing.BorderFactory.createEmptyBorder(5, 5, 5, 5));
-        m_jPanelTicket.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         m_jPanelTicket.setLayout(new java.awt.BorderLayout());
         add(m_jPanelTicket, java.awt.BorderLayout.CENTER);
 
@@ -479,7 +473,6 @@ public class JTicketsBagTicket extends JTicketsBag {
         gridBagConstraints.insets = new java.awt.Insets(0, 5, 0, 0);
         jPanel5.add(jButton1, gridBagConstraints);
 
-        m_jTicketEditor.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         m_jTicketEditor.setPreferredSize(new java.awt.Dimension(130, 30));
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
@@ -491,7 +484,6 @@ public class JTicketsBagTicket extends JTicketsBag {
         jPanel3.add(jPanel4, java.awt.BorderLayout.NORTH);
 
         buttonGroup1.add(jrbSales);
-        jrbSales.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         jrbSales.setText(AppLocal.getIntString("label.sales")); // NOI18N
         jrbSales.setToolTipText("Show Sales Only");
         jrbSales.setFocusPainted(false);
@@ -500,7 +492,6 @@ public class JTicketsBagTicket extends JTicketsBag {
         jPanel1.add(jrbSales);
 
         buttonGroup1.add(jrbRefunds);
-        jrbRefunds.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         jrbRefunds.setForeground(new java.awt.Color(255, 0, 0));
         jrbRefunds.setText(AppLocal.getIntString("label.refunds")); // NOI18N
         jrbRefunds.setToolTipText("Show Refunds Only");

@@ -276,7 +276,6 @@ public class JCalendarPanel extends javax.swing.JPanel {
         m_ListDates = new JButtonDate[42];
         for(int i = 0; i < 42; i++) {
             JButtonDate jAux = new JButtonDate(dateclick);
-            // jAux.setFont(new Font("Dialog", 1, 24));
             jAux.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
             jAux.setText(null);
             jAux.setOpaque(true);
@@ -290,7 +289,6 @@ public class JCalendarPanel extends javax.swing.JPanel {
         m_jDays = new JLabel[7];
         for(int iHead = 0; iHead < 7; iHead++) {
             JLabel JAuxHeader = new JLabel();
-            //JAuxHeader.setFont(new Font("Dialog", 1, 24));
             JAuxHeader.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
             m_jDays[iHead] = JAuxHeader;
             m_jWeekDays.add(JAuxHeader);
@@ -327,7 +325,6 @@ public class JCalendarPanel extends javax.swing.JPanel {
         jPanel3 = new javax.swing.JPanel();
         m_jActions = new javax.swing.JPanel();
 
-        setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         setLayout(new java.awt.BorderLayout());
 
         jPanel1.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -339,13 +336,11 @@ public class JCalendarPanel extends javax.swing.JPanel {
         m_jMonth.add(m_jWeekDays, java.awt.BorderLayout.NORTH);
 
         m_jDates.setBackground(javax.swing.UIManager.getDefaults().getColor("TextPane.background"));
-        m_jDates.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         m_jDates.setLayout(new java.awt.GridLayout(6, 7));
         m_jMonth.add(m_jDates, java.awt.BorderLayout.CENTER);
 
         jPanel1.add(m_jMonth, java.awt.BorderLayout.CENTER);
 
-        m_jLblMonth.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
         jPanel2.add(m_jLblMonth);
 
         jPanel1.add(jPanel2, java.awt.BorderLayout.NORTH);

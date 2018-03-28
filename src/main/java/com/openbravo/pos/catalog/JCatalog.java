@@ -495,10 +495,8 @@ public class JCatalog extends JPanel implements ListSelectionListener, CatalogSe
 
         m_jscrollcat.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
         m_jscrollcat.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
-        m_jscrollcat.setFont(new java.awt.Font("Lucida Grande", 0, 12)); // NOI18N
         m_jscrollcat.setPreferredSize(new java.awt.Dimension(265, 130));
 
-        m_jListCategories.setFont(new java.awt.Font("Songti SC", 0, 12)); // NOI18N
         m_jListCategories.setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
         m_jListCategories.setFocusable(false);
         m_jListCategories.addListSelectionListener(new javax.swing.event.ListSelectionListener() {
@@ -524,7 +522,6 @@ public class JCatalog extends JPanel implements ListSelectionListener, CatalogSe
 
         jPanel4.setLayout(new java.awt.BorderLayout());
 
-        m_lblIndicator.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_lblIndicator.setText("jLabel1");
         jPanel4.add(m_lblIndicator, java.awt.BorderLayout.NORTH);
 

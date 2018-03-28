@@ -136,16 +136,13 @@ public class JPanelCSVCleardb extends JPanel implements JPanelView {
 
         setPreferredSize(new java.awt.Dimension(450, 240));
 
-        jLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         java.util.ResourceBundle bundle = java.util.ResourceBundle.getBundle("pos_messages"); // NOI18N
         jLabel1.setText(bundle.getString("label.csvresetimport")); // NOI18N
         jLabel1.setPreferredSize(new java.awt.Dimension(250, 30));
 
         jMessageBox.setEditable(false);
-        jMessageBox.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jScrollPane1.setViewportView(jMessageBox);
 
-        jEnableButton.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jEnableButton.setText(bundle.getString("label.csvenableclear")); // NOI18N
         jEnableButton.setPreferredSize(new java.awt.Dimension(250, 30));
         jEnableButton.addChangeListener(new javax.swing.event.ChangeListener() {
@@ -159,7 +156,6 @@ public class JPanelCSVCleardb extends JPanel implements JPanelView {
             }
         });
 
-        jBtnCleardb.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jBtnCleardb.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/sale_delete.png"))); // NOI18N
         jBtnCleardb.setText(bundle.getString("label.clearimport")); // NOI18N
         jBtnCleardb.setActionCommand(AppLocal.getIntString("button.exit")); // NOI18N

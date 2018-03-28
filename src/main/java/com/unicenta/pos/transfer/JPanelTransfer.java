@@ -354,34 +354,27 @@ public class JPanelTransfer extends JPanel implements JPanelView {
         jbtnExit = new javax.swing.JButton();
 
         setBackground(new java.awt.Color(255, 255, 255));
-        setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         setPreferredSize(new java.awt.Dimension(650, 400));
 
         jPanel1.setLayout(null);
 
         webPanel1.setBackground(new java.awt.Color(255, 255, 255));
 
-        cbTarget.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         cbTarget.setPreferredSize(new java.awt.Dimension(200, 30));
 
         txtDBDriverLib.setText("webTextField1");
-        txtDBDriverLib.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         txtDBDriverLib.setPreferredSize(new java.awt.Dimension(300, 30));
 
         txtDBDriver.setText("webTextField2");
-        txtDBDriver.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         txtDBDriver.setPreferredSize(new java.awt.Dimension(300, 30));
 
         txtDBUser.setText("webTextField2");
-        txtDBUser.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         txtDBUser.setPreferredSize(new java.awt.Dimension(300, 30));
 
         txtDBURL.setText("webTextField1");
-        txtDBURL.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         txtDBURL.setPreferredSize(new java.awt.Dimension(300, 30));
 
         txtDBPass.setText("webPasswordField1");
-        txtDBPass.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         txtDBPass.setPreferredSize(new java.awt.Dimension(300, 30));
 
         jbtnDbDriverLib.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/fileopen.png"))); // NOI18N
@@ -389,7 +382,6 @@ public class JPanelTransfer extends JPanel implements JPanelView {
         jbtnDbDriverLib.setMinimumSize(new java.awt.Dimension(64, 32));
         jbtnDbDriverLib.setPreferredSize(new java.awt.Dimension(64, 32));
 
-        jButtonTest.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jButtonTest.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/database.png"))); // NOI18N
         java.util.ResourceBundle bundle = java.util.ResourceBundle.getBundle("pos_messages"); // NOI18N
         jButtonTest.setText(bundle.getString("Button.Test")); // NOI18N
@@ -401,7 +393,6 @@ public class JPanelTransfer extends JPanel implements JPanelView {
             }
         });
 
-        jbtnMigrate.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jbtnMigrate.setText(AppLocal.getIntString("button.migrate")); // NOI18N
         jbtnMigrate.setMaximumSize(new java.awt.Dimension(70, 33));
         jbtnMigrate.setMinimumSize(new java.awt.Dimension(70, 33));
@@ -463,43 +454,36 @@ public class JPanelTransfer extends JPanel implements JPanelView {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jLabel5.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel5.setText("New  Database ");
         jLabel5.setMaximumSize(new java.awt.Dimension(150, 30));
         jLabel5.setMinimumSize(new java.awt.Dimension(150, 30));
         jLabel5.setPreferredSize(new java.awt.Dimension(200, 30));
 
-        jLabel18.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel18.setText(AppLocal.getIntString("label.dbdriverlib")); // NOI18N
         jLabel18.setMaximumSize(new java.awt.Dimension(150, 30));
         jLabel18.setMinimumSize(new java.awt.Dimension(150, 30));
         jLabel18.setPreferredSize(new java.awt.Dimension(200, 30));
 
-        jLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel1.setText(AppLocal.getIntString("Label.DbDriver")); // NOI18N
         jLabel1.setMaximumSize(new java.awt.Dimension(150, 30));
         jLabel1.setMinimumSize(new java.awt.Dimension(150, 30));
         jLabel1.setPreferredSize(new java.awt.Dimension(200, 30));
 
-        jLabel2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel2.setText(AppLocal.getIntString("Label.DbURL")); // NOI18N
         jLabel2.setMaximumSize(new java.awt.Dimension(150, 30));
         jLabel2.setMinimumSize(new java.awt.Dimension(150, 30));
         jLabel2.setPreferredSize(new java.awt.Dimension(200, 30));
 
-        jLabel3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel3.setText(AppLocal.getIntString("Label.DbUser")); // NOI18N
         jLabel3.setMaximumSize(new java.awt.Dimension(150, 30));
         jLabel3.setMinimumSize(new java.awt.Dimension(150, 30));
         jLabel3.setPreferredSize(new java.awt.Dimension(200, 30));
 
-        jLabel4.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel4.setText(AppLocal.getIntString("Label.DbPassword")); // NOI18N
         jLabel4.setMaximumSize(new java.awt.Dimension(150, 30));
         jLabel4.setMinimumSize(new java.awt.Dimension(150, 30));
         jLabel4.setPreferredSize(new java.awt.Dimension(200, 30));
 
-        jbtnExit.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jbtnExit.setText(AppLocal.getIntString("Button.Exit")); // NOI18N
         jbtnExit.setMaximumSize(new java.awt.Dimension(70, 33));
         jbtnExit.setMinimumSize(new java.awt.Dimension(70, 33));

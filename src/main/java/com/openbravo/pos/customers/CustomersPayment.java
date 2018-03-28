@@ -330,7 +330,6 @@ public class CustomersPayment extends javax.swing.JPanel implements JPanelView, 
         jPanel6.add(btnSave);
         jPanel6.add(jSeparator1);
 
-        btnPay.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         btnPay.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/pay.png"))); // NOI18N
         btnPay.setText(AppLocal.getIntString("button.pay")); // NOI18N
         btnPay.setToolTipText("Pay Account");
@@ -348,7 +347,6 @@ public class CustomersPayment extends javax.swing.JPanel implements JPanelView, 
         });
         jPanel6.add(btnPay);
 
-        btnPrePay.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         btnPrePay.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/customer_add_sml.png"))); // NOI18N
         btnPrePay.setText(AppLocal.getIntString("button.prepay")); // NOI18N
         java.util.ResourceBundle bundle = java.util.ResourceBundle.getBundle("pos_messages"); // NOI18N
@@ -385,7 +383,6 @@ public class CustomersPayment extends javax.swing.JPanel implements JPanelView, 
         jPanel5.setBorder(javax.swing.BorderFactory.createEmptyBorder(5, 5, 5, 5));
         jPanel5.setLayout(new java.awt.GridBagLayout());
 
-        editorcard.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         editorcard.setPreferredSize(new java.awt.Dimension(200, 30));
         jPanel5.add(editorcard, new java.awt.GridBagConstraints());
 
@@ -415,61 +412,50 @@ public class CustomersPayment extends javax.swing.JPanel implements JPanelView, 
 
         add(jPanel3, java.awt.BorderLayout.LINE_END);
 
-        jLabel3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel3.setText(AppLocal.getIntString("label.name")); // NOI18N
         jLabel3.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jLabel12.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel12.setText(AppLocal.getIntString("label.notes")); // NOI18N
         jLabel12.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jLabel5.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel5.setText(AppLocal.getIntString("label.card")); // NOI18N
         jLabel5.setPreferredSize(new java.awt.Dimension(150, 30));
 
         txtCard.setEditable(false);
-        txtCard.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         txtCard.setFocusable(false);
         txtCard.setPreferredSize(new java.awt.Dimension(0, 30));
         txtCard.setRequestFocusEnabled(false);
 
-        jLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText(AppLocal.getIntString("label.maxdebt")); // NOI18N
         jLabel1.setPreferredSize(new java.awt.Dimension(120, 30));
 
-        jLabel2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setText(AppLocal.getIntString("label.curdebt")); // NOI18N
         jLabel2.setPreferredSize(new java.awt.Dimension(120, 30));
 
         txtCurdebt.setEditable(false);
-        txtCurdebt.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         txtCurdebt.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         txtCurdebt.setFocusable(false);
         txtCurdebt.setPreferredSize(new java.awt.Dimension(120, 30));
         txtCurdebt.setRequestFocusEnabled(false);
 
         txtCurdate.setEditable(false);
-        txtCurdate.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         txtCurdate.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         txtCurdate.setFocusable(false);
         txtCurdate.setPreferredSize(new java.awt.Dimension(120, 30));
         txtCurdate.setRequestFocusEnabled(false);
 
-        jLabel6.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel6.setText(AppLocal.getIntString("label.curdate")); // NOI18N
         jLabel6.setPreferredSize(new java.awt.Dimension(120, 30));
 
         txtName.setEditable(false);
-        txtName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         txtName.setFocusable(false);
         txtName.setPreferredSize(new java.awt.Dimension(0, 30));
         txtName.setRequestFocusEnabled(false);
 
         txtMaxdebt.setEditable(false);
-        txtMaxdebt.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         txtMaxdebt.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         txtMaxdebt.setFocusable(false);
         txtMaxdebt.setPreferredSize(new java.awt.Dimension(120, 30));
@@ -477,25 +463,20 @@ public class CustomersPayment extends javax.swing.JPanel implements JPanelView, 
 
         txtPrePay.setForeground(new java.awt.Color(0, 204, 255));
         txtPrePay.setEnabled(false);
-        txtPrePay.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         txtPrePay.setPreferredSize(new java.awt.Dimension(200, 30));
 
         txtTaxId.setEditable(false);
-        txtTaxId.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         txtTaxId.setFocusable(false);
         txtTaxId.setPreferredSize(new java.awt.Dimension(150, 30));
         txtTaxId.setRequestFocusEnabled(false);
 
-        jLabel7.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel7.setText(AppLocal.getIntString("label.taxid")); // NOI18N
         jLabel7.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jLabel4.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel4.setText(AppLocal.getIntString("label.prepay")); // NOI18N
         jLabel4.setPreferredSize(new java.awt.Dimension(120, 30));
 
         txtNotes.setEnabled(false);
-        txtNotes.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         txtNotes.setPreferredSize(new java.awt.Dimension(250, 100));
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);

@@ -152,7 +152,6 @@ public class JNumberDialog extends javax.swing.JDialog {
 
         jPanel1.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.RIGHT));
 
-        jcmdCancel.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jcmdCancel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/cancel.png"))); // NOI18N
         jcmdCancel.setText(m_resources.getString("button.cancel")); // NOI18N
         jcmdCancel.setMargin(new java.awt.Insets(8, 16, 8, 16));
@@ -163,7 +162,6 @@ public class JNumberDialog extends javax.swing.JDialog {
         });
         jPanel1.add(jcmdCancel);
 
-        jcmdOK.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jcmdOK.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/ok.png"))); // NOI18N
         jcmdOK.setText(m_resources.getString("button.ok")); // NOI18N
         jcmdOK.setMargin(new java.awt.Insets(8, 16, 8, 16));
@@ -179,12 +177,10 @@ public class JNumberDialog extends javax.swing.JDialog {
         jPanel2.setBorder(javax.swing.BorderFactory.createEmptyBorder(5, 5, 5, 5));
         jPanel2.setLayout(new java.awt.BorderLayout());
 
-        jPanelGrid.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jPanelGrid.setPreferredSize(new java.awt.Dimension(300, 300));
 
         jPanel3.setLayout(new javax.swing.BoxLayout(jPanel3, javax.swing.BoxLayout.Y_AXIS));
 
-        m_jKeys.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jKeys.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 m_jKeysActionPerformed(evt);
@@ -195,7 +191,6 @@ public class JNumberDialog extends javax.swing.JDialog {
         jPanel4.setBorder(javax.swing.BorderFactory.createEmptyBorder(5, 5, 5, 5));
         jPanel4.setLayout(new java.awt.BorderLayout());
 
-        m_jnumber.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jPanel4.add(m_jnumber, java.awt.BorderLayout.CENTER);
 
         jPanel3.add(jPanel4);
@@ -208,7 +203,6 @@ public class JNumberDialog extends javax.swing.JDialog {
 
         m_jPanelTitle.setLayout(new java.awt.BorderLayout());
 
-        m_lblMessage.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_lblMessage.setBorder(javax.swing.BorderFactory.createCompoundBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 1, 0, java.awt.Color.darkGray), javax.swing.BorderFactory.createEmptyBorder(5, 5, 5, 5)));
         m_jPanelTitle.add(m_lblMessage, java.awt.BorderLayout.CENTER);
 

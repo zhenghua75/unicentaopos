@@ -102,7 +102,6 @@ public class ParametersPrinter extends javax.swing.JPanel implements ParametersC
 
         setBackground(new java.awt.Color(255, 255, 255));
 
-        jPrinters.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jPrinters.setPreferredSize(new java.awt.Dimension(200, 30));
         jPrinters.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -111,7 +110,6 @@ public class ParametersPrinter extends javax.swing.JPanel implements ParametersC
         });
 
         jReceiptPrinter.setBackground(new java.awt.Color(255, 255, 255));
-        jReceiptPrinter.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jReceiptPrinter.setSelected(true);
         jReceiptPrinter.setText(AppLocal.getIntString("label.receiptprinter")); // NOI18N
 

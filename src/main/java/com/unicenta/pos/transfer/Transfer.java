@@ -1576,10 +1576,8 @@ public final class Transfer extends JPanel implements JPanelView {
         webPBar = new com.alee.laf.progressbar.WebProgressBar();
 
         setBackground(new java.awt.Color(255, 255, 255));
-        setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         setPreferredSize(new java.awt.Dimension(900, 425));
 
-        jLabel5.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(102, 102, 102));
         java.util.ResourceBundle bundle = java.util.ResourceBundle.getBundle("pos_messages"); // NOI18N
         jLabel5.setText(bundle.getString("label.DbType")); // NOI18N
@@ -1587,49 +1585,42 @@ public final class Transfer extends JPanel implements JPanelView {
         jLabel5.setMinimumSize(new java.awt.Dimension(150, 30));
         jLabel5.setPreferredSize(new java.awt.Dimension(160, 30));
 
-        jLabel18.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel18.setForeground(new java.awt.Color(102, 102, 102));
         jLabel18.setText(AppLocal.getIntString("label.dbdriverlib")); // NOI18N
         jLabel18.setMaximumSize(new java.awt.Dimension(150, 30));
         jLabel18.setMinimumSize(new java.awt.Dimension(150, 30));
         jLabel18.setPreferredSize(new java.awt.Dimension(160, 30));
 
-        jLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(102, 102, 102));
         jLabel1.setText(AppLocal.getIntString("label.DbDriver")); // NOI18N
         jLabel1.setMaximumSize(new java.awt.Dimension(150, 30));
         jLabel1.setMinimumSize(new java.awt.Dimension(150, 30));
         jLabel1.setPreferredSize(new java.awt.Dimension(160, 30));
 
-        jLabel2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(102, 102, 102));
         jLabel2.setText("URL");
         jLabel2.setMaximumSize(new java.awt.Dimension(150, 30));
         jLabel2.setMinimumSize(new java.awt.Dimension(150, 30));
         jLabel2.setPreferredSize(new java.awt.Dimension(160, 30));
 
-        jLabel7.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(102, 102, 102));
         jLabel7.setText("DB Version");
         jLabel7.setMaximumSize(new java.awt.Dimension(150, 30));
         jLabel7.setMinimumSize(new java.awt.Dimension(150, 30));
         jLabel7.setPreferredSize(new java.awt.Dimension(160, 30));
 
-        jLabel3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(102, 102, 102));
         jLabel3.setText(AppLocal.getIntString("label.DbUser")); // NOI18N
         jLabel3.setMaximumSize(new java.awt.Dimension(150, 30));
         jLabel3.setMinimumSize(new java.awt.Dimension(150, 30));
         jLabel3.setPreferredSize(new java.awt.Dimension(160, 30));
 
-        jLabel4.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(102, 102, 102));
         jLabel4.setText(AppLocal.getIntString("label.DbPassword")); // NOI18N
         jLabel4.setMaximumSize(new java.awt.Dimension(150, 30));
         jLabel4.setMinimumSize(new java.awt.Dimension(150, 30));
         jLabel4.setPreferredSize(new java.awt.Dimension(160, 30));
 
-        jLabel6.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(51, 51, 51));
         jLabel6.setText("TRANSFER TO :");
         jLabel6.setPreferredSize(new java.awt.Dimension(150, 30));
@@ -1650,7 +1641,6 @@ public final class Transfer extends JPanel implements JPanelView {
 
         cbSource.setForeground(new java.awt.Color(51, 51, 51));
         cbSource.setToolTipText(bundle.getString("tooltip.transferfromdb")); // NOI18N
-        cbSource.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         cbSource.setPreferredSize(new java.awt.Dimension(150, 30));
         cbSource.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1660,7 +1650,6 @@ public final class Transfer extends JPanel implements JPanelView {
 
         jtxtDbDriverLib.setForeground(new java.awt.Color(51, 51, 51));
         jtxtDbDriverLib.setToolTipText(bundle.getString("tootltip.transferlib")); // NOI18N
-        jtxtDbDriverLib.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jtxtDbDriverLib.setPreferredSize(new java.awt.Dimension(300, 30));
 
         jbtnDbDriverLib.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/fileopen.png"))); // NOI18N
@@ -1671,15 +1660,12 @@ public final class Transfer extends JPanel implements JPanelView {
 
         jtxtDbDriver.setForeground(new java.awt.Color(51, 51, 51));
         jtxtDbDriver.setToolTipText(bundle.getString("tootltip.transferclass")); // NOI18N
-        jtxtDbDriver.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jtxtDbDriver.setPreferredSize(new java.awt.Dimension(300, 30));
 
         jtxtDbURL.setForeground(new java.awt.Color(51, 51, 51));
         jtxtDbURL.setToolTipText(bundle.getString("tootltip.transferdbname")); // NOI18N
-        jtxtDbURL.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jtxtDbURL.setPreferredSize(new java.awt.Dimension(300, 30));
 
-        jlblVersion.setFont(new java.awt.Font("Arial", 1, 16)); // NOI18N
         jlblVersion.setForeground(new java.awt.Color(0, 204, 255));
         jlblVersion.setToolTipText(bundle.getString("tooltip.transferdbversion")); // NOI18N
         jlblVersion.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 204, 255)));
@@ -1689,42 +1675,35 @@ public final class Transfer extends JPanel implements JPanelView {
 
         txtDbUser.setForeground(new java.awt.Color(51, 51, 51));
         txtDbUser.setToolTipText(bundle.getString("tooltip.dbuser")); // NOI18N
-        txtDbUser.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         txtDbUser.setPreferredSize(new java.awt.Dimension(300, 30));
 
         txtDbPass.setForeground(new java.awt.Color(51, 51, 51));
         txtDbPass.setToolTipText(bundle.getString("tooltip.dbpassword")); // NOI18N
-        txtDbPass.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         txtDbPass.setPreferredSize(new java.awt.Dimension(300, 30));
 
         jScrollPane1.setBorder(null);
         jScrollPane1.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
         jScrollPane1.setViewportBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 204, 204)));
-        jScrollPane1.setFont(new java.awt.Font("Arial", 0, 13)); // NOI18N
         jScrollPane1.setHorizontalScrollBar(null);
         jScrollPane1.setPreferredSize(new java.awt.Dimension(200, 350));
 
         txtOut.setColumns(20);
-        txtOut.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         txtOut.setForeground(new java.awt.Color(0, 153, 255));
         txtOut.setRows(5);
         txtOut.setToolTipText(bundle.getString("tooltip.transfertxtout")); // NOI18N
         txtOut.setBorder(null);
         jScrollPane1.setViewportView(txtOut);
 
-        jLabel8.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
         jLabel8.setForeground(new java.awt.Color(0, 153, 255));
         jLabel8.setText("PROGRESS");
         jLabel8.setPreferredSize(new java.awt.Dimension(150, 30));
         jLabel8.setSize(new java.awt.Dimension(150, 30));
 
-        jlblSource.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
         jlblSource.setForeground(new java.awt.Color(0, 153, 255));
         jlblSource.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         jlblSource.setPreferredSize(new java.awt.Dimension(150, 30));
         jlblSource.setSize(new java.awt.Dimension(150, 30));
 
-        jbtnExit.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jbtnExit.setText(AppLocal.getIntString("Button.Exit")); // NOI18N
         jbtnExit.setToolTipText(bundle.getString("tooltip.exit")); // NOI18N
         jbtnExit.setMaximumSize(new java.awt.Dimension(70, 33));
@@ -1738,7 +1717,6 @@ public final class Transfer extends JPanel implements JPanelView {
 
         jtxtDbName.setForeground(new java.awt.Color(51, 51, 51));
         jtxtDbName.setToolTipText(bundle.getString("tooltip.dbname")); // NOI18N
-        jtxtDbName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jtxtDbName.setPreferredSize(new java.awt.Dimension(300, 30));
         jtxtDbName.addFocusListener(new java.awt.event.FocusAdapter() {
             public void focusLost(java.awt.event.FocusEvent evt) {
@@ -1746,21 +1724,19 @@ public final class Transfer extends JPanel implements JPanelView {
             }
         });
 
-        jLabel9.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel9.setForeground(new java.awt.Color(102, 102, 102));
         jLabel9.setText(AppLocal.getIntString("label.DbUser")); // NOI18N
         jLabel9.setMaximumSize(new java.awt.Dimension(150, 30));
         jLabel9.setMinimumSize(new java.awt.Dimension(150, 30));
         jLabel9.setPreferredSize(new java.awt.Dimension(160, 30));
 
-        jLabel10.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel10.setForeground(new java.awt.Color(102, 102, 102));
         jLabel10.setText(AppLocal.getIntString("label.DbName")); // NOI18N
         jLabel10.setMaximumSize(new java.awt.Dimension(150, 30));
         jLabel10.setMinimumSize(new java.awt.Dimension(150, 30));
         jLabel10.setPreferredSize(new java.awt.Dimension(160, 30));
 
-        jbtnTest.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+		
         jbtnTest.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/database.png"))); // NOI18N
         jbtnTest.setText(bundle.getString("Button.Test")); // NOI18N
         jbtnTest.setToolTipText(bundle.getString("tooltip.dbtest")); // NOI18N
@@ -1772,7 +1748,6 @@ public final class Transfer extends JPanel implements JPanelView {
             }
         });
 
-        jbtnTransfer.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jbtnTransfer.setText(AppLocal.getIntString("button.transfer")); // NOI18N
         jbtnTransfer.setToolTipText(bundle.getString("tooltip.transferdb")); // NOI18N
         jbtnTransfer.setMaximumSize(new java.awt.Dimension(70, 33));
@@ -1784,7 +1759,6 @@ public final class Transfer extends JPanel implements JPanelView {
             }
         });
 
-        webPBar.setFont(new java.awt.Font("Arial", 0, 13)); // NOI18N
         webPBar.setPreferredSize(new java.awt.Dimension(240, 30));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);

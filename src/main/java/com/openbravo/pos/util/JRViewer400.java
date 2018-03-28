@@ -763,7 +763,6 @@ public final class JRViewer400 extends javax.swing.JPanel implements JRHyperlink
         setLayout(new java.awt.BorderLayout());
 
         jToolBar.setFloatable(false);
-        jToolBar.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
 
         btnSave.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/filesave.png"))); // NOI18N
         btnSave.setToolTipText(getBundleString("save"));
@@ -992,7 +991,6 @@ public final class JRViewer400 extends javax.swing.JPanel implements JRHyperlink
         gridBagConstraints.gridy = 0;
         jPanel4.add(jPanel9, gridBagConstraints);
 
-        lblPage.setFont(new java.awt.Font("Agency FB", 0, 12)); // NOI18N
         lblPage.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         lblPage.setOpaque(true);
         gridBagConstraints = new java.awt.GridBagConstraints();
@@ -1024,11 +1022,9 @@ public final class JRViewer400 extends javax.swing.JPanel implements JRHyperlink
 
         add(pnlMain, java.awt.BorderLayout.CENTER);
 
-        pnlStatus.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         pnlStatus.setPreferredSize(new java.awt.Dimension(59, 20));
         pnlStatus.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.CENTER, 0, 0));
 
-        lblStatus.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
         lblStatus.setText("Page i of n");
         lblStatus.setMaximumSize(new java.awt.Dimension(59, 18));
         pnlStatus.add(lblStatus);

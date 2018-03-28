@@ -200,45 +200,34 @@ public final class PlacesEditor extends JPanel implements EditorRecord {
         jLabel7 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
 
-        jLabel2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel2.setText(AppLocal.getIntString("label.name")); // NOI18N
         jLabel2.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        m_jName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jName.setPreferredSize(new java.awt.Dimension(0, 30));
 
-        jLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel1.setText(AppLocal.getIntString("label.placefloor")); // NOI18N
         jLabel1.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        m_jFloor.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jFloor.setPreferredSize(new java.awt.Dimension(0, 30));
 
-        jLabel6.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel6.setText(AppLocal.getIntString("label.placeposition")); // NOI18N
         jLabel6.setPreferredSize(new java.awt.Dimension(0, 30));
 
-        jLabel5.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel5.setText("Across");
         jLabel5.setPreferredSize(new java.awt.Dimension(0, 30));
 
-        jLabel3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel3.setText("Down");
         jLabel3.setPreferredSize(new java.awt.Dimension(0, 30));
 
-        m_jX.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jX.setPreferredSize(new java.awt.Dimension(0, 30));
 
-        m_jY.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jY.setPreferredSize(new java.awt.Dimension(0, 30));
 
-        jLabel7.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel7.setText("<html>Position buttons in your Table plan graphic set in the Floor option <br><br> Start Position 0, 0 is Top Left");
         jLabel7.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         jLabel7.setMinimumSize(new java.awt.Dimension(50, 40));
         jLabel7.setPreferredSize(new java.awt.Dimension(489, 40));
 
-        jLabel4.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(0, 102, 255));
         jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/restaurant_floor_sml.png"))); // NOI18N

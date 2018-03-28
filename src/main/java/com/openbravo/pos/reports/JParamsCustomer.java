@@ -132,10 +132,8 @@ public class JParamsCustomer extends javax.swing.JPanel implements ReportEditorC
         btnCustomer = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
 
-        setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         setPreferredSize(new java.awt.Dimension(400, 60));
 
-        jTextField1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jTextField1.setPreferredSize(new java.awt.Dimension(250, 30));
 
         btnCustomer.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/customer_sml.png"))); // NOI18N
@@ -147,7 +145,6 @@ public class JParamsCustomer extends javax.swing.JPanel implements ReportEditorC
             }
         });
 
-        jLabel2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel2.setText(AppLocal.getIntString("label.customer")); // NOI18N
         jLabel2.setPreferredSize(new java.awt.Dimension(110, 30));
 

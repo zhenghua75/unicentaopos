@@ -141,9 +141,6 @@ public class DinerNumber extends javax.swing.JDialog {
         jPanel4.setBorder(javax.swing.BorderFactory.createEmptyBorder(5, 5, 5, 5));
         jPanel4.setLayout(new java.awt.BorderLayout());
 
-        jPanel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-
-        m_jnumber.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -164,7 +161,6 @@ public class DinerNumber extends javax.swing.JDialog {
 
         jPanel4.add(jPanel1, java.awt.BorderLayout.LINE_START);
 
-        jcmdOK.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jcmdOK.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/ok.png"))); // NOI18N
         jcmdOK.setMargin(new java.awt.Insets(8, 16, 8, 16));
         jcmdOK.setPreferredSize(new java.awt.Dimension(80, 45));
@@ -185,7 +181,6 @@ public class DinerNumber extends javax.swing.JDialog {
 
         m_jPanelTitle.setLayout(new java.awt.BorderLayout());
 
-        m_lblMessage.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jPanelTitle.add(m_lblMessage, java.awt.BorderLayout.CENTER);
 
         getContentPane().add(m_jPanelTitle, java.awt.BorderLayout.NORTH);
