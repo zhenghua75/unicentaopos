@@ -40,9 +40,9 @@
         }
         }
 
-        PosApps posApps = new PosApps();
+        //PosApps posApps = new PosApps();
 
-        posApps.init(ticket,dbURL,dbUser,dbPassword,rootWindow,"Email");
+        //posApps.init(ticket,dbURL,dbUser,dbPassword,rootWindow,"Email");
 
 
 
@@ -57,21 +57,21 @@ if ("cash".equals(p.getName())) {
 
 // Get details of the original font before we change it otherwise all dialogboxes will use new settings
 JOptionPane pane = new JOptionPane();
-Font originalFont=pane.getFont();
+//Font originalFont=pane.getFont();
 
 //UIManager.put("OptionPane.buttonFont", new FontUIResource(new Font("ARIAL",Font.PLAIN,20)));
-message = "Change: " + change;
+message = "找零: " + change;
  JLabel FontText = new JLabel(message);
 
 if(isCash) {
      JOptionPane pane = new JOptionPane();
      pane.setMessage(FontText);
      pane.setPreferredSize( new Dimension(450,150));
-     JDialog dialog = pane.createDialog("Cash payment");
+     JDialog dialog = pane.createDialog("现金支付");
     new Thread(new Runnable() { void run() {
         dialog.show();
     } }).start();
 }
 
 // Return to default settings
-UIManager.put("OptionPane.buttonFont", new FontUIResource(new Font(originalFont.getName(),originalFont.getStyle(),originalFont.getSize())));
+//UIManager.put("OptionPane.buttonFont", new FontUIResource(new Font(originalFont.getName(),originalFont.getStyle(),originalFont.getSize())));
