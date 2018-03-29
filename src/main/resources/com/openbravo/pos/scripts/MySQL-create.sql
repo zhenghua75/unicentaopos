@@ -926,41 +926,41 @@ INSERT INTO resources(id, name, restype, content) VALUES('77', 'script.posapps',
 INSERT INTO resources(id, name, restype, content) VALUES('78', 'img.posapps', 1, $FILE{/com/openbravo/pos/templates/img.posapps.png});
 
 -- ADD CATEGORIES
-INSERT INTO categories(id, name) VALUES ('000', 'Category Standard');
+INSERT INTO categories(id, name) VALUES ('000', '一般');
 
 -- ADD TAXCATEGORIES
 /* 002 added 31/01/2017 00:00:00. */
-INSERT INTO taxcategories(id, name) VALUES ('000', 'Tax Exempt');
+INSERT INTO taxcategories(id, name) VALUES ('000', '免税');
 -- INSERT INTO taxcategories(id, name) VALUES ('001', 'Tax Standard');
 -- INSERT INTO taxcategories(id, name) VALUES ('002', 'Tax Other');
 
 -- ADD TAXES
 /* 002 added 31/01/2017 00:00:00. */
-INSERT INTO taxes(id, name, category, custcategory, parentid, rate, ratecascade, rateorder) VALUES ('000', 'Tax Exempt', '000', NULL, NULL, 0, FALSE, NULL);
+INSERT INTO taxes(id, name, category, custcategory, parentid, rate, ratecascade, rateorder) VALUES ('000', '免税', '000', NULL, NULL, 0, FALSE, NULL);
 -- INSERT INTO taxes(id, name, category, custcategory, parentid, rate, ratecascade, rateorder) VALUES ('001', 'Tax Standard', '001', NULL, NULL, 0.20, FALSE, NULL);
 -- INSERT INTO taxes(id, name, category, custcategory, parentid, rate, ratecascade, rateorder) VALUES ('002', 'Tax Other', '002', NULL, NULL, 0, FALSE, NULL);
 
 -- ADD PRODUCTS
 INSERT INTO products(id, reference, code, name, category, taxcat, isservice, display, printto) 
-VALUES ('xxx999_999xxx_x9x9x9', 'xxx999', 'xxx999', '***', '000', '001', 1, '<html><center>***', '1');
+VALUES ('xxx999_999xxx_x9x9x9', 'xxx999', 'xxx999', '***', '000', '000', 1, '<html><center>***', '1');
 INSERT INTO products(id, reference, code, name, category, taxcat, isservice, display, printto) 
-VALUES ('xxx998_998xxx_x8x8x8', 'xxx998', 'xxx998', '****', '000', '001', 1, '<html><center>****', '1');
+VALUES ('xxx998_998xxx_x8x8x8', 'xxx998', 'xxx998', '****', '000', '000', 1, '<html><center>****', '1');
 
 -- ADD PRODUCTS_CAT
 INSERT INTO products_cat(product) VALUES ('xxx999_999xxx_x9x9x9');
 INSERT INTO products_cat(product) VALUES ('xxx998_998xxx_x8x8x8');
 
 -- ADD LOCATION
-INSERT INTO locations(id, name, address) VALUES ('0','Location 1','Local');
+INSERT INTO locations(id, name, address) VALUES ('0','位置','地址');
 
 -- ADD SUPPLIERS
--- INSERT INTO suppliers(id, searchkey, name) VALUES ('0','uniCenta','uniCenta');
+INSERT INTO suppliers(id, searchkey, name) VALUES ('0','供应商','供应商');
 
 -- ADD UOM
-INSERT INTO uom(id, name) VALUES ('0','Each');
+INSERT INTO uom(id, name) VALUES ('0','单位');
 
 -- ADD FLOORS
-INSERT INTO floors(id, name, image) VALUES ('0', 'Restaurant floor', $FILE{/com/openbravo/pos/templates/restaurant_floor.png});
+INSERT INTO floors(id, name, image) VALUES ('0', '餐厅楼层', $FILE{/com/openbravo/pos/templates/restaurant_floor.png});
 
 -- ADD PLACES
 INSERT INTO places(id, name, x, y, floor) VALUES ('1', '桌子 1', 100, 50, '0');
@@ -980,9 +980,9 @@ INSERT INTO places(id, name, x, y, floor) VALUES ('12', '桌子 12', 850, 150, '
 INSERT INTO shifts(id, startshift, endshift, pplid) VALUES ('0', '2016-01-01 00:00:00.001', '2016-01-01 00:00:00.002','0');
 
 -- ADD BREAKS
-INSERT INTO breaks(id, name, visible, notes) VALUES ('0', 'Lunch Break', TRUE, NULL);
-INSERT INTO breaks(id, name, visible, notes) VALUES ('1', 'Tea Break', TRUE, NULL);
-INSERT INTO breaks(id, name, visible, notes) VALUES ('2', 'Mid Break', TRUE, NULL);
+INSERT INTO breaks(id, name, visible, notes) VALUES ('0', '午餐时间', TRUE, NULL);
+INSERT INTO breaks(id, name, visible, notes) VALUES ('1', '茶点时间', TRUE, NULL);
+INSERT INTO breaks(id, name, visible, notes) VALUES ('2', '中间休息', TRUE, NULL);
 
 -- ADD SHIFT_BREAKS
 INSERT INTO shift_breaks(id, shiftid, breakid, starttime, endtime) VALUES ('0', '0', '0', '2016-01-01 00:00:00.003', '2016-01-01 00:00:00.004');
