@@ -2525,6 +2525,7 @@ public abstract class JPanelTicket extends JPanel implements JPanelView, BeanFac
         m_jTotalEuros.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
         m_jTotalEuros.setMaximumSize(new java.awt.Dimension(125, 25));
         m_jTotalEuros.setMinimumSize(new java.awt.Dimension(80, 25));
+        m_jTotalEuros.setName(""); // NOI18N
         m_jTotalEuros.setPreferredSize(new java.awt.Dimension(100, 25));
         m_jTotalEuros.setRequestFocusEnabled(false);
         m_jPanTotals.add(m_jTotalEuros);

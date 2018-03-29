@@ -931,14 +931,14 @@ INSERT INTO categories(id, name) VALUES ('000', 'Category Standard');
 -- ADD TAXCATEGORIES
 /* 002 added 31/01/2017 00:00:00. */
 INSERT INTO taxcategories(id, name) VALUES ('000', 'Tax Exempt');
-INSERT INTO taxcategories(id, name) VALUES ('001', 'Tax Standard');
-INSERT INTO taxcategories(id, name) VALUES ('002', 'Tax Other');
+-- INSERT INTO taxcategories(id, name) VALUES ('001', 'Tax Standard');
+-- INSERT INTO taxcategories(id, name) VALUES ('002', 'Tax Other');
 
 -- ADD TAXES
 /* 002 added 31/01/2017 00:00:00. */
 INSERT INTO taxes(id, name, category, custcategory, parentid, rate, ratecascade, rateorder) VALUES ('000', 'Tax Exempt', '000', NULL, NULL, 0, FALSE, NULL);
-INSERT INTO taxes(id, name, category, custcategory, parentid, rate, ratecascade, rateorder) VALUES ('001', 'Tax Standard', '001', NULL, NULL, 0.20, FALSE, NULL);
-INSERT INTO taxes(id, name, category, custcategory, parentid, rate, ratecascade, rateorder) VALUES ('002', 'Tax Other', '002', NULL, NULL, 0, FALSE, NULL);
+-- INSERT INTO taxes(id, name, category, custcategory, parentid, rate, ratecascade, rateorder) VALUES ('001', 'Tax Standard', '001', NULL, NULL, 0.20, FALSE, NULL);
+-- INSERT INTO taxes(id, name, category, custcategory, parentid, rate, ratecascade, rateorder) VALUES ('002', 'Tax Other', '002', NULL, NULL, 0, FALSE, NULL);
 
 -- ADD PRODUCTS
 INSERT INTO products(id, reference, code, name, category, taxcat, isservice, display, printto) 
@@ -954,7 +954,7 @@ INSERT INTO products_cat(product) VALUES ('xxx998_998xxx_x8x8x8');
 INSERT INTO locations(id, name, address) VALUES ('0','Location 1','Local');
 
 -- ADD SUPPLIERS
-INSERT INTO suppliers(id, searchkey, name) VALUES ('0','uniCenta','uniCenta');
+-- INSERT INTO suppliers(id, searchkey, name) VALUES ('0','uniCenta','uniCenta');
 
 -- ADD UOM
 INSERT INTO uom(id, name) VALUES ('0','Each');
@@ -963,18 +963,18 @@ INSERT INTO uom(id, name) VALUES ('0','Each');
 INSERT INTO floors(id, name, image) VALUES ('0', 'Restaurant floor', $FILE{/com/openbravo/pos/templates/restaurant_floor.png});
 
 -- ADD PLACES
-INSERT INTO places(id, name, x, y, floor) VALUES ('1', 'Table 1', 100, 50, '0');
-INSERT INTO places(id, name, x, y, floor) VALUES ('2', 'Table 2', 250, 50, '0');
-INSERT INTO places(id, name, x, y, floor) VALUES ('3', 'Table 3', 400, 50, '0');
-INSERT INTO places(id, name, x, y, floor) VALUES ('4', 'Table 4', 550, 50, '0');
-INSERT INTO places(id, name, x, y, floor) VALUES ('5', 'Table 5', 700, 50, '0');
-INSERT INTO places(id, name, x, y, floor) VALUES ('6', 'Table 6', 850, 50, '0');
-INSERT INTO places(id, name, x, y, floor) VALUES ('7', 'Table 7', 100, 150, '0');
-INSERT INTO places(id, name, x, y, floor) VALUES ('8', 'Table 8', 250, 150, '0');
-INSERT INTO places(id, name, x, y, floor) VALUES ('9', 'Table 9', 400, 150, '0');
-INSERT INTO places(id, name, x, y, floor) VALUES ('10', 'Table 10', 550, 150, '0');
-INSERT INTO places(id, name, x, y, floor) VALUES ('11', 'Table 11', 700, 150, '0');
-INSERT INTO places(id, name, x, y, floor) VALUES ('12', 'Table 12', 850, 150, '0');
+INSERT INTO places(id, name, x, y, floor) VALUES ('1', '桌子 1', 100, 50, '0');
+INSERT INTO places(id, name, x, y, floor) VALUES ('2', '桌子 2', 250, 50, '0');
+INSERT INTO places(id, name, x, y, floor) VALUES ('3', '桌子 3', 400, 50, '0');
+INSERT INTO places(id, name, x, y, floor) VALUES ('4', '桌子 4', 550, 50, '0');
+INSERT INTO places(id, name, x, y, floor) VALUES ('5', '桌子 5', 700, 50, '0');
+INSERT INTO places(id, name, x, y, floor) VALUES ('6', '桌子 6', 850, 50, '0');
+INSERT INTO places(id, name, x, y, floor) VALUES ('7', '桌子 7', 100, 150, '0');
+INSERT INTO places(id, name, x, y, floor) VALUES ('8', '桌子 8', 250, 150, '0');
+INSERT INTO places(id, name, x, y, floor) VALUES ('9', '桌子 9', 400, 150, '0');
+INSERT INTO places(id, name, x, y, floor) VALUES ('10', '桌子 10', 550, 150, '0');
+INSERT INTO places(id, name, x, y, floor) VALUES ('11', '桌子 11', 700, 150, '0');
+INSERT INTO places(id, name, x, y, floor) VALUES ('12', '桌子 12', 850, 150, '0');
 
 -- ADD SHIFTS
 INSERT INTO shifts(id, startshift, endshift, pplid) VALUES ('0', '2016-01-01 00:00:00.001', '2016-01-01 00:00:00.002','0');
