@@ -64,11 +64,11 @@ public class JPaymentSelectCustomer extends JPaymentSelect {
     @Override
     protected void addTabs() {
 // Bank Payment Receipt - Thanks Steve Clough! August 2011
-        addTabPayment(new JPaymentSelect.JPaymentCashCreator());
-        addTabPayment(new JPaymentSelect.JPaymentChequeCreator());
-        addTabPayment(new JPaymentSelect.JPaymentVoucherCreator());
-        addTabPayment(new JPaymentSelect.JPaymentBankCreator());
-        addTabPayment(new JPaymentSelect.JPaymentMagcardCreator());
+        addTabPayment(new JPaymentSelect.JPaymentCashCreator());//现金
+        addTabPayment(new JPaymentSelect.JPaymentChequeCreator());//支票
+        addTabPayment(new JPaymentSelect.JPaymentVoucherCreator());//记账
+        addTabPayment(new JPaymentSelect.JPaymentBankCreator());//银行卡
+        addTabPayment(new JPaymentSelect.JPaymentMagcardCreator());//磁卡
         addTabPayment(new JPaymentSelect.JPaymentSlipCreator());
     }
     
