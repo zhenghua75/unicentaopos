@@ -838,14 +838,24 @@ INSERT INTO people(id, name, apppassword, role, visible, image) VALUES ('3', 'é¡
 INSERT INTO resources(id, name, restype, content) VALUES('0', 'Menu.Root', 0, $FILE{/com/openbravo/pos/templates/Menu.Root.txt});
 
 -- IMAGES
-INSERT INTO resources(id, name, restype, content) VALUES('1', 'coin.01', 1, $FILE{/com/openbravo/pos/templates/coin.01.png});
-INSERT INTO resources(id, name, restype, content) VALUES('2', 'coin.02', 1, $FILE{/com/openbravo/pos/templates/coin.02.png});
-INSERT INTO resources(id, name, restype, content) VALUES('3', 'coin.05', 1, $FILE{/com/openbravo/pos/templates/coin.05.png});
-INSERT INTO resources(id, name, restype, content) VALUES('4', 'coin.1', 1, $FILE{/com/openbravo/pos/templates/coin.1.png});
-INSERT INTO resources(id, name, restype, content) VALUES('5', 'coin.10', 1, $FILE{/com/openbravo/pos/templates/coin.10.png});
-INSERT INTO resources(id, name, restype, content) VALUES('6', 'coin.2', 1, $FILE{/com/openbravo/pos/templates/coin.2.png});
-INSERT INTO resources(id, name, restype, content) VALUES('7', 'coin.20', 1, $FILE{/com/openbravo/pos/templates/coin.20.png});
-INSERT INTO resources(id, name, restype, content) VALUES('8', 'coin.50', 1, $FILE{/com/openbravo/pos/templates/coin.50.png});
+-- INSERT INTO resources(id, name, restype, content) VALUES('1', 'coin.01', 1, $FILE{/com/openbravo/pos/templates/coin.01.png});
+-- INSERT INTO resources(id, name, restype, content) VALUES('2', 'coin.02', 1, $FILE{/com/openbravo/pos/templates/coin.02.png});
+-- INSERT INTO resources(id, name, restype, content) VALUES('3', 'coin.05', 1, $FILE{/com/openbravo/pos/templates/coin.05.png});
+-- INSERT INTO resources(id, name, restype, content) VALUES('4', 'coin.1', 1, $FILE{/com/openbravo/pos/templates/coin.1.png});
+-- INSERT INTO resources(id, name, restype, content) VALUES('5', 'coin.10', 1, $FILE{/com/openbravo/pos/templates/coin.10.png});
+-- INSERT INTO resources(id, name, restype, content) VALUES('6', 'coin.2', 1, $FILE{/com/openbravo/pos/templates/coin.2.png});
+-- INSERT INTO resources(id, name, restype, content) VALUES('7', 'coin.20', 1, $FILE{/com/openbravo/pos/templates/coin.20.png});
+-- INSERT INTO resources(id, name, restype, content) VALUES('8', 'coin.50', 1, $FILE{/com/openbravo/pos/templates/coin.50.png});
+
+INSERT INTO resources(id, name, restype, content) VALUES('1', 'rmb.100', 1, $FILE{/com/openbravo/pos/templates/rmb.100.jpg});
+INSERT INTO resources(id, name, restype, content) VALUES('2', 'rmb.50', 1, $FILE{/com/openbravo/pos/templates/rmb.50.jpg});
+INSERT INTO resources(id, name, restype, content) VALUES('3', 'rmb.20', 1, $FILE{/com/openbravo/pos/templates/rmb.20.jpg});
+INSERT INTO resources(id, name, restype, content) VALUES('4', 'rmb.10', 1, $FILE{/com/openbravo/pos/templates/rmb.10.jpg});
+INSERT INTO resources(id, name, restype, content) VALUES('5', 'rmb.5', 1, $FILE{/com/openbravo/pos/templates/rmb.5.jpg});
+INSERT INTO resources(id, name, restype, content) VALUES('6', 'rmb.1', 1, $FILE{/com/openbravo/pos/templates/rmb.1.jpg});
+INSERT INTO resources(id, name, restype, content) VALUES('7', 'rmb.05', 1, $FILE{/com/openbravo/pos/templates/rmb.05.jpg});
+INSERT INTO resources(id, name, restype, content) VALUES('8', 'rmb.01', 1, $FILE{/com/openbravo/pos/templates/rmb.01.jpg});
+
 INSERT INTO resources(id, name, restype, content) VALUES('9', 'img.cash', 1, $FILE{/com/openbravo/pos/templates/img.cash.png});
 INSERT INTO resources(id, name, restype, content) VALUES('10', 'img.cashdrawer', 1, $FILE{/com/openbravo/pos/templates/img.cashdrawer.png});
 INSERT INTO resources(id, name, restype, content) VALUES('11', 'img.discount', 1, $FILE{/com/openbravo/pos/templates/img.discount.png});
@@ -859,10 +869,11 @@ INSERT INTO resources(id, name, restype, content) VALUES('18', 'img.refundit', 1
 INSERT INTO resources(id, name, restype, content) VALUES('19', 'img.run_script', 1, $FILE{/com/openbravo/pos/templates/img.run_script.png});
 INSERT INTO resources(id, name, restype, content) VALUES('20', 'img.ticket_print', 1, $FILE{/com/openbravo/pos/templates/img.ticket_print.png});
 INSERT INTO resources(id, name, restype, content) VALUES('21', 'img.user', 1, $FILE{/com/openbravo/pos/templates/img.user.png});
-INSERT INTO resources(id, name, restype, content) VALUES('22', 'note.50', 1, $FILE{/com/openbravo/pos/templates/note.50.png});
-INSERT INTO resources(id, name, restype, content) VALUES('23', 'note.20', 1, $FILE{/com/openbravo/pos/templates/note.20.png});
-INSERT INTO resources(id, name, restype, content) VALUES('24', 'note.10', 1, $FILE{/com/openbravo/pos/templates/note.10.png});
-INSERT INTO resources(id, name, restype, content) VALUES('25', 'note.5', 1, $FILE{/com/openbravo/pos/templates/note.5.png});
+
+-- INSERT INTO resources(id, name, restype, content) VALUES('22', 'note.50', 1, $FILE{/com/openbravo/pos/templates/note.50.png});
+-- INSERT INTO resources(id, name, restype, content) VALUES('23', 'note.20', 1, $FILE{/com/openbravo/pos/templates/note.20.png});
+-- INSERT INTO resources(id, name, restype, content) VALUES('24', 'note.10', 1, $FILE{/com/openbravo/pos/templates/note.10.png});
+-- INSERT INTO resources(id, name, restype, content) VALUES('25', 'note.5', 1, $FILE{/com/openbravo/pos/templates/note.5.png});
 
 -- PRINTER
 INSERT INTO resources(id, name, restype, content) VALUES('26', 'Printer.CloseCash.Preview', 0, $FILE{/com/openbravo/pos/templates/Printer.CloseCash.Preview.xml});

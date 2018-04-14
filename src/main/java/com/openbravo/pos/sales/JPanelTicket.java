@@ -162,6 +162,7 @@ public abstract class JPanelTicket extends JPanel implements JPanelView, BeanFac
     private TicketInfo m_ticketCopy;
     private AppConfig m_config;
    
+    private Boolean tax = false;
     
     /** Creates new form JTicketView */
     public JPanelTicket() {
@@ -247,7 +248,15 @@ public abstract class JPanelTicket extends JPanel implements JPanelView, BeanFac
         m_oTicket = null;
         m_oTicketExt = null; 
         jCheckStock.setText(AppLocal.getIntString("message.title.checkstock"));
-
+        
+        tax = m_config.getBoolean("user.tax");
+        
+        m_jLblTotalEuros3.setVisible(tax);
+        m_jSubtotalEuros.setVisible(tax);
+        m_jLblTotalEuros2.setVisible(tax);
+        m_jTaxesEuros.setVisible(tax);
+        //m_jaddtax.setVisible(tax);
+        //m_jTax.setVisible(tax);
     }
 
     @Override
@@ -350,7 +359,7 @@ public abstract class JPanelTicket extends JPanel implements JPanelView, BeanFac
         taxeslogic = new TaxesLogic(taxlist);
         m_jaddtax.setSelected((Boolean.parseBoolean(m_App.getProperties().getProperty("till.taxincluded"))));             
 
-        if (m_App.getAppUserView().getUser().hasPermission("sales.ChangeTaxOptions")) {
+        if (m_App.getAppUserView().getUser().hasPermission("sales.ChangeTaxOptions") && tax) {
             m_jTax.setVisible(true);
             m_jaddtax.setVisible(true);            
         } else {

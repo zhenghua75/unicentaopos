@@ -803,6 +803,7 @@ public class JTicketsBagRestaurantMap extends JTicketsBag {
 
         setLayout(new java.awt.CardLayout());
 
+        m_jPanelMap.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         m_jPanelMap.setLayout(new java.awt.BorderLayout());
 
         jPanel1.setLayout(new java.awt.BorderLayout());
@@ -843,6 +844,7 @@ public class JTicketsBagRestaurantMap extends JTicketsBag {
         });
         jPanel2.add(m_jbtnRefresh);
 
+        m_jText.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jPanel2.add(m_jText);
 
         jPanel1.add(jPanel2, java.awt.BorderLayout.LINE_START);
